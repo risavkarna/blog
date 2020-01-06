@@ -1,0 +1,23 @@
+## Introducing nep.work
+
+# nep.work in a nutshell
+
+We are a community that develops omni-channel platforms for sales and delivery of services through work contract exchanges and pre-purchases. 
+
+Think of us as an ecommerce and hospitality platform for trading service agreements and insurances (eg for event organization and logistics) instead of products and at every accessible venue instead of a particular physical location (eg hotel, stadium, hospital etc).
+
+## Omni-channel
+
+A single channel, physical or digital, is not always enough. Neither is a basic cross-channel or multichannel strategy for interaction endpoints with the customers and providers. We must include all available digital and physical real estate, payment gateways and logistical solutions for every nep.work trading agreement related interactions. However as we will have a singular (but distributed)functional core, these various interaction points for the market will always be in synchrony and harmony with each other. That said we will still have brick and mortar shops and online catalog sales webshops.
+
+## Platform
+
+Our sole product and service is the work exchange platform and its customer support program respectively. We have a foundational infrastructure for a contractrarian services exchange, with or without money, backed by immutable and verifiable structures such as blockchain and specialized merkle trees. The platform also has formal and socio-technical mechanisms to verify proof of work (PoW) for a given fulfilled contract. A verified PoW can be used for adding a new block of data to our blockchain and related persistence systems.
+
+## Sales and Delivery
+
+Our services can be sold as contracts, insurances and barter agreements. When money is involved, the transactions can be made using local payment channels or the on-delivery cash service. Payments in kind or barter may be needed before, during and after the delivery as per the specific Trading Agreement (TAg). We also have logistics partners and will announce a unified access API and SDK for our TAg management, payments and delivery. 
+
+## Work Exchange
+
+Our work exchange platform goes beyond a freelancer network for posting and grabbing project offers. After a service request or offer is posted, there is either an open or closed negotiation between the provider and consumer parties. Optionally, an auction of the type chosen by the author of the post may be created to bypass negotiations and find optimum pricing options without involving  [senile Walrasians](https://www.econlib.org/archives/2010/09/the_senile_walr.html) .
