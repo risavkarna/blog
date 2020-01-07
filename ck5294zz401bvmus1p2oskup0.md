@@ -12,7 +12,7 @@ A single channel, physical or digital, is not always enough for modern ecommerce
 
 ## Platform
 
-Our sole product and exclusive service is the work exchange platform and its customer support program respectively. We have a foundational infrastructure for a  [contractualist](https://plato.stanford.edu/entries/contractualism/)  service exchange, with or without money, backed by immutable, reliable and publicly verifiable structures such as blockchain and in-memory merkle trees. The platform also has formal and socio-technical mechanisms to verify proof of work (PoW) for a given fulfilled contract. A verified PoW can be used for adding a new block of data to our blockchain and related persistence systems.
+Our sole product and exclusive service is the work exchange platform and its customer support program respectively. We have a foundational infrastructure for a  [contractualist](https://plato.stanford.edu/entries/contractualism/)  service exchange, with or without money, backed by immutable, reliable and publicly verifiable structures such as blockchain and in-memory merkle DAGs. The platform also has formal and socio-technical mechanisms to verify proof of work (PoW) for a given fulfilled contract. A verified PoW can be used for adding a new block of data to our blockchain and related persistence systems.
 
 ## Sales and Delivery
 
