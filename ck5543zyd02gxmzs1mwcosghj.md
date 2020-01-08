@@ -108,6 +108,6 @@ It follows that one big change in the development team's architecture would be t
 
 Lastly, neither Fred George nor the Martins are advocating radical anarchy or complete departure from the lessons learned from scrum and other agile frameworks be it managerial or technical. Even the anarchists are supposed to converse and ask each other. Anarchic teams have emergent leaderships and self-organization strategies rather than pre-ordained leadership or lack of well-suited organizational strategies. 
 
-How would the architecture of a system produced by an anarchic team look like? Surely the anarchy would leak into the architecture itself. Perhaps there will be an explosion of plugin and microservice architectures. Perhaps not. But I am sure that software architecture itself will be radically affected. What kind of architecture allows for flexible micro-architectures? The best kind. Could we call it an architecture? Once again, the solution lies in the problem definition itself.
+How would the architecture of a system produced by an anarchic team look like? Surely the anarchy would leak into the architecture itself. Perhaps there will be an explosion of plugin and microservice architectures. Perhaps not. But I am sure that software architecture itself will be radically affected. What kind of architecture allows for flexible micro-architectures? The best kind. Could we call it an architecture? Once again, the solution emerges from the problem definition itself.
 
 We could call it ***anarchitecture***.
