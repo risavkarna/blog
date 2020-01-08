@@ -78,7 +78,7 @@ Another profound realization that led to Fred George's vision of the post-agile 
 This radical departure from the classical and agile status quo is possible because development teams understand business metrics, customer oriented development and follow the supremely powerful continuous feedback-continuous deployment cycle. 
 
 On a more fundamental level, it is the realization that 
-> **if you are going to drive, you need to put the driver in the driver's seat**. 
+> **if you are going for a drive, you need to put the driver in the driver's seat**. 
 
 Secondly if the driver is an experienced professional whom you have told where to take you, 
 > **the backseat drivers are not needed**.
