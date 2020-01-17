@@ -13,9 +13,9 @@ In this section, we will talk about how the logic side and the programming side 
 Going further than the Curry-Howard correspondence we have so far, there is a generalized  [Curry-Howard-Lambek correspondence](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence) . It shows that proofs of  [intuitionistic propositional logic](https://en.wikipedia.org/wiki/Intuitionistic_logic)  and combinators of typed  [combinatory logic](https://en.wikipedia.org/wiki/Combinatory_logic)  share an  [equational theory](https://en.wikipedia.org/wiki/Universal_algebra)  and form  [cartesian closed categories](https://en.wikipedia.org/wiki/Cartesian_closed_category) . 
 
 We will learn about constructions that operate on these logical propositions or abstract categories or types. We will deal with pairs such as 
-*  [quantification](https://en.wikipedia.org/wiki/Quantifier_(logic))  and  [generalization](https://en.wikipedia.org/wiki/Generalization) , 
-*  [sum](https://en.wikipedia.org/wiki/Coproduct)  and  [product](https://en.wikipedia.org/wiki/Product_(category_theory)) , 
-*  [implication](https://en.wikipedia.org/wiki/Logical_consequence)  and  [function](https://en.wikipedia.org/wiki/Function_(mathematics)) 
+*  [quantification](https://en.wikipedia.org/wiki/Quantifier_(logic) )  and  [generalization](https://en.wikipedia.org/wiki/Generalization) , 
+*  [sum](https://en.wikipedia.org/wiki/Coproduct)  and  [product](https://en.wikipedia.org/wiki/Product_(category_theory) ) , 
+*  [implication](https://en.wikipedia.org/wiki/Logical_consequence)  and  [function](https://en.wikipedia.org/wiki/Function_(mathematics) ) 
 *  [conjunction](https://en.wikipedia.org/wiki/Logical_conjunction)  and product
 *  [disjunction](https://en.wikipedia.org/wiki/Logical_disjunction)  and sum
 *  [truth](https://en.wikipedia.org/wiki/Truth_value)  and  [unity](https://en.wikipedia.org/wiki/Unit_type) 
