@@ -1,6 +1,6 @@
 ## Mathematics' Architecture & Processes
 
-This will be the 2020's web series about the foundation, architecture and deconstruction of mathematics. We will be mainly concerned with structures on top of which all of mathematics can find its foundations. However one cannot do much with just the foundations. We are going to discuss the known and the novel constructs with which we have build our mathematics. 
+This will be the 2020's web series about the foundation, architecture and deconstruction of mathematics. We will be mainly concerned with structures on top of which all of mathematics can find its foundations. However one cannot do much with just the foundations. We are going to discuss the known and the novel constructs with which we have built our mathematics. 
 
 We will start by observing an interesting shadow set of the same structure and, more interestingly, we will name the shadows but not the structure itself. Once you have shadows from all the infinite  [steradians](https://en.wikipedia.org/wiki/Steradian), you have the complete silhouette. You can go further and map the details of the structure instead of just getting its topographical outline. 
 
@@ -44,7 +44,7 @@ We will mostly obsess with quaternions and n-dimensional tuples which may mutate
 
 # 4. Transformers and Mutators
 
-These mutators are called transformers if they shift the tuple towards structures in the same dimension.
+These mutators are called transformers if they shift the tuple towards structures in the same dimensions as before.
 
 # 5. Matrices and Hypergraphs
 
@@ -56,11 +56,11 @@ We will examine a memory arrays & meshes based architecture for a collaborative 
 
 # 7. COPLA and NEP.WORK
 
-Based on 6, we will create a model for inter-planetary level collaborations and national level collaborations named here as nep.work.
+Based on 6, we will create a model for inter-planetary level computational collaborations and national level collaborations named here as nep.work in the examples.
 
 # 8. Spoken and Written Lang
 
-We will take a step back and examine the core part of our abstractions. We will study spoken and written language structures describing the aforementioned concepts and knowledge base.
+We will take a step back and examine the core constructors of our abstractions. We will study spoken and written language structures describing the aforementioned concepts and knowledge base.
 
 # 9. Shared and Heard Lang
 
@@ -72,7 +72,7 @@ We will continue 9 with a further shifted focus towards internal language system
 
 # 11. Sink and Link
 
-Certain nodes in our directed graphs and networks are sources or sinks or both.  The edge line or enclosure is known as a link and it may be directional or contextual.
+Certain nodes in our directed graphs and networks are sources or sinks or both.  The edge line or n-D enclosure is known as a link and it may be directional and/or contextual.
 
 # 12. Source and Course
 
