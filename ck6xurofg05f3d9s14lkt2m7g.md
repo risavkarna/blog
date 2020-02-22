@@ -37,12 +37,12 @@ Allow trials infinitely, it unfurls its own self
 It's not just maths, even physics gets wow help
 Einstein's E to the wow over MC squared
 Is wow to the two, but this news never aired
-Maybe infamous as a split personality 1 shared
+Maybe since its a con split personality 1 shared
 
 Yet it's so uber cool no math lover hates it.
 
 ``` 
 
-Vi Hart's video that inspired this wau wau wow poem:
+Vi Hart's con that inspired this wau wau wow poem:
 
 https://youtu.be/GFLkou8NvJo
