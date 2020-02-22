@@ -37,7 +37,7 @@ Allow trials infinitely, it unfurls its own self
 It's not just maths, even physics gets wow help
 Einstein's E to the wow over MC squared
 Is wow to the two, but this news never aired
-Maybe since its a con split personality 1 shared
+Maybe since its a con split personality 0 and 1 shared
 
 Yet it's so uber cool no math lover hates it.
 
