@@ -6,7 +6,7 @@ Let me introduce you to Wau,
 Your new favorite of all numbers
 For many a different reason
 But here's only some for now
-I shouldn't keep going on
+I could keep going on
 But FB status limit encumbers
 
 Here's one:
