@@ -39,7 +39,7 @@ You have to have high-tech sweatshops for scaling up the aforementioned ‘consu
 
 (Disclosure: This author is currently rolling out a platform primarily for these kinds of workers.)
 
-In practice, there is no purely Orwellian or Huxleyan company. Most companies are a good mixture of the two these days. You will find it more likely to find secure, well-treated developers living comfortably in London, New York and most of SF Bay area and Western Europe. These are predominantly Huxleyan communities fueled and placated by coffee, alcohol, weed, micro-dosing or even Burning Man-like festivals. They will be mostly addicted to technology more than any drug though, thereby confined to a self-centered growth focus and destined to see the rest of the world as just a set of problems curable by software and technology. They might wax poetic on topics like 
+In practice, there is no purely Orwellian or Huxleyan company. Most companies are a good mixture of the two these days. You will find it more likely to find secure, well-treated developers living comfortably in London, New York and most of SF Bay area and Western Europe. These are predominantly Huxleyan communities fueled and placated by coffee, alcohol, weed, micro-dosing or even Burning Man-like festivals. They will be mostly addicted to technology more than any drug though, thereby confined to a self-centered growth focus and destined to see the rest of the world as just a set of problems curable by software and technology. I have listened and guiltily participated when they would wax poetic on topics like 
 
 - how their weekend hackathon was for helping teen developers make the world a better place 
 - which meditation apps are the best
@@ -51,7 +51,7 @@ In practice, there is no purely Orwellian or Huxleyan company. Most companies ar
 
 ## Having a Cake and Eating it Too
 
-I also used to interact with Asian/Indian developers living in the US or India who were constantly looking for their next job or a better one as they would be working as temps or externs from some outsourcing firm operating in the US or EU but originating in their home country. 
+I also used to interact with Asian/Indian developers living in the US or India who were constantly looking for their next job or a better one as they would be working as temps or externs from some outsourcing firm operating in the US/EU/UK but originating in their home country. 
 
 After almost a decade in Germany, I recently started living and working from Nepal as well. I have started noticing more than before how my region of the world is producing prolific developers albeit putting them under certain different incentives and priorities. It is convenient for companies like Boeing or British Airways to be able to simply push the narrative in the news that the so-called  [$9-an-hour developers crashed their $100+ million Max planes](https://www.bloomberg.com/news/articles/2019-06-28/boeing-s-737-max-software-outsourced-to-9-an-hour-engineers) or cost them  [£100+ million due to a flights control system changeover disaster](https://www.forbes.com/sites/jwebb/2017/05/29/british-airways-flights-and-it-failure-cue-furious-debate-around-outsourcing/#6b9a56f37839
 ). They still have to face the music but they can still claim to be a sound company with a good internal engineering culture. Or alternately, if questioned about bad outsourcing practices, claim that the technological problems are ‘local’ to the company exploiting the ambiguity of *localness* in a globalized corporate Möbius strip. 
