@@ -47,7 +47,12 @@ In practice, there is no purely Orwellian or Huxleyan company. Most companies ar
 - how Facebook providing Facebook-branded internet to the not-yet-connected billions is great for those countries. 
 
 
-> What Orwell feared were those who would ban books. What Huxley feared was that there would be no reason to ban a book, for there would be no one who wanted to read one. Orwell feared those who would deprive us of information. Huxley feared those who would give us so much that we would be reduced to passivity and egoism. Orwell feared that the truth would be concealed from us. Huxley feared the truth would be drowned in a sea of irrelevance. Orwell feared we would become a captive culture. Huxley feared we would become a trivial culture.
+> [...] in Huxley's vision, no Big Brother is required to deprive people of
+their autonomy, maturity and history. As he saw it, people will come to
+love their oppression, to adore the technologies that undo their
+capacities to think. [...] Huxley feared those who would give us so much that we would be reduced to passivity and egoism. Orwell feared that the truth would be concealed from us. Huxley feared the truth would be drowned in a sea of irrelevance. Orwell feared we would become a captive culture. Huxley feared we would become a trivial culture, preoccupied with some
+equivalent of the feelies, the orgy porgy, and the centrifugal
+bumblepuppy.
 
 ## Having a Cake and Eating it Too
 
