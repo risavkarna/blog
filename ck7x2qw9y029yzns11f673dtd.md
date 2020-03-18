@@ -94,7 +94,7 @@ I would say that it is all the more reason to understand time, one of our most p
 
 To this end, in a true Hegelian fashion, McTaggart reached the C series of time via dialectics. A series was the incumbent thesis. B series was the antithesis and C series was supposed to be the synthesis. McTaggart also employed modern metaphysics and analytic philosophy in defense of his neo-Hegelian view in the C series. We are about to reach the C series by understanding his arguments through parallels in the scientific community’s evolution of thoughts and ideas. The next two posts will be dedicated towards explaining this position and using it to dive further into the phenomenology and physics of time. We will also have a look at some more definitions of time and imaginary time from various scholars in the field and see if they too are fundamentally noumenal or mere abstractions for aiding calculations and without a physical meaning. We will see further uses of the ABCs and 123s and more explanations of the C in the upcoming discussions, which I hope will be very rewarding to the few of you who have read this far. 
 
-For one thing, I will be using all of the build up so far for cautiously exploring the possibility that just as time becomes space in a black hole, space becomes time on quantum scale. 
+For one thing, I will be using all of the build up so far for cautiously exploring the possibility that just as time becomes space in a black hole, space may become time on a quantum scale. 
 
 
 
