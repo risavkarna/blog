@@ -79,7 +79,7 @@ Poincare had presented a simpler form of this expression when introducing comple
 
 ![cb20b5e5603c23c9c37f357ba305a5c993e88902.svg](https://wikimedia.org/api/rest_v1/media/math/render/svg/cb20b5e5603c23c9c37f357ba305a5c993e88902)
 
-The imaginary number i has the special feature, by definition, that multiplying any real number with its square negates that number. Note the we had a negative square of time in the metric in the first place because of how space and time interact with each other in our universe. So it makes sense to allow for the time dimension's values to be place on the imaginary axis so that we have the more elegant and Pythagorean looking metric expression:
+The imaginary number i has the special feature, by definition, that multiplying any real number with its square negates that number. Note the we had a negative square of time in the metric in the first place because of how space and time interact with each other in our universe. So it makes sense to allow for the time dimension's values to be placed on the imaginary axis so that we have the more elegant and Pythagorean looking metric expression:
 
 ![dc1d6de73455ed8ba0433832d3706cdd0f1b8ff5.svg](https://wikimedia.org/api/rest_v1/media/math/render/svg/dc1d6de73455ed8ba0433832d3706cdd0f1b8ff5)
 
