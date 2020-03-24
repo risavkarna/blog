@@ -14,7 +14,7 @@ The aforementioned 'we' represents a growing collaboration. Manish and I have re
 
 Previously introduced [nep.work](https://risav.dev/introducing-nepwork-ck5294zz401bvmus1p2oskup0) group in EU/US along with our partner company in Nepal, [Meraki Corp](https://merakinepal.co/), is providing its advanced and secure data platform and coordinating with various current and potential data providers. 
 
-> Our group takes privacy concerns and data anonymization very seriously. It has protocols and technologies in place for assuring the data providers and Nepali citizens about a transparent and careful handling of their data.
+> **Our group takes privacy concerns and data anonymization very seriously. It has protocols and technologies in place for assuring the data providers and Nepali citizens about a transparent and careful handling of their data.**
 
 Recently, we were joined by [Dr. Kiran Raj Pandey](http://hamshospital.com/doctor/dr-kiran-raj-pandey-md-ms/), who is a prominent figure in this field and has also been in touch with government officials regarding his ongoing SEIR modelling efforts for Kathmandu.
 
