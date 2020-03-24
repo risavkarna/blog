@@ -18,7 +18,7 @@ Previously introduced [nep.work](https://risav.dev/introducing-nepwork-ck5294zz4
 
 Recently, we were joined by [Dr. Kiran Raj Pandey](http://hamshospital.com/doctor/dr-kiran-raj-pandey-md-ms/), who is a prominent figure in this field and has also been in touch with government officials regarding his ongoing SEIR modelling efforts for Kathmandu.
 
-[Leapfrog](https://www.lftechnology.com/nepal/), which sponsors NAAMII and their sister company [Machnet](https://www.machnetinc.com/), which provides guidance and support to nep.work group especially in its fintech efforts, are providing their support in bringing in further invaluable resources and organizations to this collaboration. 
+[Leapfrog](https://www.lftechnology.com/nepal/), which is one of the supporters and close partner of NAAMII and their sister company [Machnet](https://www.machnetinc.com/), which provides guidance and support to nep.work group especially in its fintech efforts, are providing their support in bringing in further invaluable resources and organizations to this collaboration. 
 
 ## Please Join Us
 
