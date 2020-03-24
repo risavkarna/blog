@@ -10,13 +10,13 @@ The core algorithm and the central model for this simulation was developed by Ma
 
 The aforementioned 'we' represents a growing collaboration. Manish and I have reached out to multiple organizations and individuals after he first shared his research. 
 
-**[NAAMII](https://www.naamii.com.np/)**, an applied maths and AI based research non-profit, is the central body coordinating this entire effort. It has been instrumental in bringing in their network of experts in Nepal, US, UK and Switzerland and has effectively created the platform Nepal has lacked for a national and international scale collaboration in this area.
+**[NAAMII](https://www.naamii.com.np/)**, an applied maths and AI based research non-profit, is the central body coordinating this entire effort. It has been instrumental in bringing together its network of experts in Nepal, US, UK and Switzerland and has effectively created the platform Nepal has lacked for a national and international scale collaboration in this area.
 
-Previously introduced [nep.work](https://risav.dev/introducing-nepwork-ck5294zz401bvmus1p2oskup0) developers in EU/US and our partner company in Nepal, [Meraki Corp](https://merakinepal.co/), is providing its advanced and secure data platform and coordinating with various current and potential data providers. 
+Previously introduced [nep.work](https://risav.dev/introducing-nepwork-ck5294zz401bvmus1p2oskup0) group in EU/US along with our partner company in Nepal, [Meraki Corp](https://merakinepal.co/), is providing its advanced and secure data platform and coordinating with various current and potential data providers. 
 
 > Our group takes privacy concerns and data anonymization very seriously. It has protocols and technologies in place for assuring the data providers and Nepali citizens about a transparent and careful handling of their data.
 
-Recently, we were joined by [Dr. Kiran Raj Pandey](https://www.naamii.com.np/), who is also a prominent figure in this field and has been in touch with government officials regarding his SEIR modelling for Kathmandu.
+Recently, we were joined by [Dr. Kiran Raj Pandey](http://hamshospital.com/doctor/dr-kiran-raj-pandey-md-ms/), who is a prominent figure in this field and has also been in touch with government officials regarding his ongoing SEIR modelling efforts for Kathmandu.
 
 [Leapfrog](https://www.lftechnology.com/nepal/), which sponsors NAAMII and their sister company [Machnet](https://www.machnetinc.com/), which provides guidance and support to nep.work group especially in its fintech efforts, are providing their support in bringing in further invaluable resources and organizations to this collaboration. 
 
@@ -24,7 +24,7 @@ Recently, we were joined by [Dr. Kiran Raj Pandey](https://www.naamii.com.np/), 
 
 We would like to call upon you and all organizations, businesses, and individuals who are in a position to provide us reliable data regarding Nepal’s health infrastructure, road traffic flow and human mobility. It is of critical importance that we as a nation track human movements and hospital infrastructure to be fully informed and prepared for what's coming ahead.
 
-We would like to also highlight [CovidNepal.org](https://covidnepal.org/), another independent and noteworthy effort in this field, that will be of help, especially in aggregating hospital related data. Please contribute reliable data to it and/or promote it to hospitals and organizations in possession of relevant data.
+We would like to also highlight [CovidNepal.org](https://covidnepal.org/), another independent and noteworthy effort for this cause, that will be of help especially in aggregating hospital related data. Please contribute reliable data to it and/or promote it to hospitals and organizations in possession of relevant data.
 
 Here are some topics and examples regarding how data from telecommunication service providers can help:
 
