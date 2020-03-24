@@ -10,7 +10,7 @@ The core algorithm and the central model for this simulation was developed by Ma
 
 The aforementioned 'we' represents a growing collaboration. Manish and I have reached out to multiple organizations and individuals after he first shared his research. 
 
-**[NAAMII](https://www.naamii.com.np/)**, an applied maths and AI based research non-profit, is the central body coordinating this entire effort. It has been instrumental in bringing together its network of experts in Nepal, US, UK and Switzerland and has effectively created the platform Nepal has lacked for a national and international scale collaboration in this area.
+**[NAAMII](https://www.naamii.com.np/)**, an applied maths and AI based research non-profit, is the central body coordinating this entire effort. It has been instrumental in bringing together its network of experts in Nepal, US, UK, and Switzerland and has effectively created the platform Nepal has lacked for a national and international scale collaboration in this area.
 
 Previously introduced [nep.work](https://risav.dev/introducing-nepwork-ck5294zz401bvmus1p2oskup0) group in EU/US along with our partner company in Nepal, [Meraki Corp](https://merakinepal.co/), is providing its advanced and secure data platform and coordinating with various current and potential data providers. 
 
