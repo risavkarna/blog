@@ -26,7 +26,7 @@ We would like to call upon you and all organizations, businesses, and individual
 
 We would like to also highlight [CovidNepal.org](https://covidnepal.org/), another independent and noteworthy effort for this cause, that will be of help especially in aggregating hospital related data. Please contribute reliable data to it and/or promote it to hospitals and organizations in possession of relevant data.
 
-Here are some topics and examples regarding how data from telecommunication service providers can help:
+Here are some topics and examples regarding how data aggregation, especially from telecommunication service providers, can help:
 
 ### Crowd Densities Analysis
 
