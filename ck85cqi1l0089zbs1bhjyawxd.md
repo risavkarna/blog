@@ -22,7 +22,7 @@ Recently, we were joined by [Dr. Kiran Raj Pandey](https://www.naamii.com.np/), 
 
 ## Please Join Us
 
-We would like to call upon you and all organizations, businesses, and individuals who are in a position to provide us reliable data regarding Nepal’s health infrastructure, road traffic flow and human mobility. It is of critical importance that we a nation track human movements and hospital infrastructure. 
+We would like to call upon you and all organizations, businesses, and individuals who are in a position to provide us reliable data regarding Nepal’s health infrastructure, road traffic flow and human mobility. It is of critical importance that we as a nation track human movements and hospital infrastructure to be fully informed and prepared for what's coming ahead.
 
 We would like to also highlight [CovidNepal.org](https://covidnepal.org/), another independent and noteworthy effort in this field, that will be of help, especially in aggregating hospital related data. Please contribute reliable data to it and/or promote it to hospitals and organizations in possession of relevant data.
 
