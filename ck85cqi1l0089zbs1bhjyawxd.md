@@ -42,8 +42,8 @@ Here are some topics and examples regarding how data aggregation, especially fro
 
 There are more possibilities than these regarding improving the models behind our simulation. Please let us know if you have further ideas or if you have already made efforts similar to ours.
 
-You can contact us at:
+## Contact Us:
 
-info@naamii.org.np, 
-manish.thapa@phys.chem.ethz.ch, 
-risav@merakinepal.co 
+- NAAMII: info@naamii.org.np
+- Manish J Thapa: manish.thapa@phys.chem.ethz.ch
+- Risav Karna: risav@merakinepal.co 
