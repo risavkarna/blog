@@ -69,12 +69,12 @@ class SimpleWebApplication {
 spring run helloWorld.groovy
 ```
 
-This command will resolve all dependencies and start a tomcat install on the default port 8080. Check your browser or curl localhost:8080 to see if Hello World! has been displayed. 
+This command will resolve all dependencies and start a tomcat install on the default port 8080. Check your browser or ```curl localhost:8080``` to see if ```Hello World!``` has been displayed. 
 
 
 # Scala and Play
 
-You should strongly consider using Scala and Play if you are interested in leveling up from Spring Boot/Java. You can still use Spring Data and other awesome Spring modules in Scala/Play.
+You should strongly consider using Scala and Play if you are interested in leveling up from Spring and Java. You can still use Spring Data and other awesome Spring modules in Scala/Play.
 
 Installing Scala and sbt is simple:
 
@@ -83,7 +83,7 @@ sdk install sbt
 sdk install scala
 ```
 
-You can now create a sample Play app with a single command:
+You can now create a sample Scala Play app with a single command:
 
 ```
 sbt new playframework/play-scala-seed.g8
@@ -95,7 +95,7 @@ To run it simply type:
 sbt run
 ```
 
-This downloads all the dependencies and starts the system.
+This downloads all the dependencies and starts the system. You can also find a Java seed for Play and use Java with Play. Java APIs now have feature parity with Scala APIs in Scala but it is still a better dev experience when you use Scala. 
 
 In a browser, enter ```localhost:9000``` to view the welcome page.
 
