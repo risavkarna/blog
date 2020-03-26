@@ -1,4 +1,4 @@
-## Play/Spring and Angular: Getting Started
+## Play with Spring and Angular: Getting Started
 
 In this series, we will explore full stack development with Play, Akka, Spring modules and Angular. This will also help you understand how projects like [nep.work](https://risav.dev/introducing-nepwork-ck5294zz401bvmus1p2oskup0) are built and what one might need to learn or revise to be able to contribute to the [nep.work core stack](https://github.com/nepwork/handbook/blob/master/stack.md) or to any Play and Angular based stack for that matter. 
 
@@ -6,7 +6,7 @@ We will start this series by installing the command line interface tools for Pla
 
 ## SDKMAN and JVMs
 
-Download SDKMAN from sdkman.io. If you like curling, run: 
+Download SDKMAN from [sdkman.io](https://sdkman.io/). If you like curling, run: 
 
 ```
 curl -s "https://get.sdkman.io" | bash
@@ -19,7 +19,7 @@ This shows all available installs on SDKMAN.
 sdk list
 ```
 
-You have some choices of JDKs to choose from. 
+You have some choices of [JDKs](https://sdkman.io/jdks) to choose from. 
 
 ```
 sdk list java
@@ -74,7 +74,7 @@ This command will resolve all dependencies and start a tomcat install on the def
 
 # Scala and Play
 
-You should strongly consider using Scala and Play if you are interested in leveling up from Spring Boot/Java. You can still use Spring Data and other awesome spring modules in Scala/Play.
+You should strongly consider using Scala and Play if you are interested in leveling up from Spring Boot/Java. You can still use Spring Data and other awesome Spring modules in Scala/Play.
 
 Installing Scala and sbt is simple:
 
@@ -101,10 +101,10 @@ In a browser, enter ```localhost:9000``` to view the welcome page.
 
 ## Nodejs
 
-We will be making use of nodejs' package manager npm, which comes bundled with nodejs. Download it from this page of their site or via your package manager as explained here. For example, to get Node.js v12.x (LTS) on Ubuntu you would run: 
+We will be making use of nodejs' package manager npm, which comes bundled with nodejs. Download it from the [download page](https://nodejs.org/en/download/) of their site or via your package manager as explained [here](https://github.com/nodesource/distributions/blob/master/README.md). For example, to get Node.js v13.x (with full ICU/i18n support) on Ubuntu you would run: 
 
 ```
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
