@@ -25,7 +25,7 @@ You have some choices of [JDKs](https://sdkman.io/jdks) to choose from.
 sdk list java
 ```
 
-I would suggest Amazon's Corretto if you will be deploying to AWS as it is always a good idea to idea to have development, staging and production environment parity whenever applicable. 
+I would suggest Amazon's Corretto if you will be deploying to AWS as it is always a good idea to have development, staging and production environment parity whenever applicable. 
 
 You can also use AdoptOpenJDK or [the magical GraalVM](https://www.graalvm.org/docs/why-graal/) (**strongly recommended**) if you are a polyglot developer or want to experience the best available high performance VM.
 
