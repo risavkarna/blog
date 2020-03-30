@@ -12,7 +12,7 @@ The aforementioned 'we' represents a growing collaboration. Manish and I have re
 
 **[NAAMII](https://www.naamii.com.np/)**, an applied maths and AI based research non-profit, is the central body coordinating this entire effort. It has been instrumental in bringing together its network of experts in Nepal, US, UK, and Switzerland and has effectively created the platform Nepal has lacked for a national and international scale collaboration in this area.
 
-Previously introduced [nep.work](https://risav.dev/introducing-nepwork-ck5294zz401bvmus1p2oskup0) group in EU/US along with our partner company in Nepal, [Meraki Corp](https://merakinepal.co/), is providing its advanced and secure data platform and coordinating with various current and potential data providers. 
+Previously introduced [nep.work](https://risav.dev/introducing-nepwork-ck5294zz401bvmus1p2oskup0) group in EU/US, along with its partner companies [i-ikigai](http://i-ikigai.co.uk) in UK and [Meraki Corp](https://merakinepal.co/) in Nepal, is providing its advanced and secure data platform and coordinating with various current and potential data providers. 
 
 > **Our group takes privacy concerns and data anonymization very seriously. It has protocols and technologies in place for assuring the data providers and Nepali citizens about a transparent and careful handling of their data.**
 
