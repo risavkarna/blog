@@ -70,28 +70,28 @@ _________________________________________________________________
 
 Just like `Nothing` allows nothing as its value, `Unit` allows only one and the same value and `Boolean` allows only two.
 
-`Boolean` type is probably the most well known and well understood of all. It allows its value to be either `true` or `false`. 
+`Boolean` type is probably the most well known and easily understood of all. It allows its value to be either `true` or `false`. 
 
-`Unit` type only allows one value, which is written as `()`. Therefore it holds no information and is very similar to, but not the same as, `void` used in C/C++/Java. It also should not be confused with aforementioned `Nothing` or with `Null` from the next section. We will return back to this type later when we talk about product types and tuples as it can be interpreted as a 0-tuple. We will also see how it is useful when we talk about abstract data types and algebraic data types.    
+`Unit` type only allows one value, which is written as `()`. Therefore it holds no information and is very similar to, but not the same as, `void` used in C/C++/Java. It also should not be confused with aforementioned `Nothing` or with `Null` from the next section. We will return back to this type later when we talk about tuples and product types as `Unit` can be interpreted as a 0-tuple or a product of no types. We will also see how it is useful when we talk about abstract data types and algebraic data types.    
 
 _________________________________________________________________
 
 ### **Option and Null**
 
-Sometimes a reference whose that points to some value or none of it when the instance of that type is being requested by the program execution. Such references use a null pointer in many languages, which Tony Hoare has famously called his billion dollar mistake. 
+Sometimes a reference is likely to point to some value or none of it when the value of the instance of that type is requested for use by the program execution. In many languages, such references lead to a null pointer, which Tony Hoare, the pioneering computer scientist who introduced the null pointer concept, has famously called his billion dollar mistake. 
 
-The functional and type safe solution to this annoyance would be the the type `Option` or `Optional` (in Java, Scala, Kotlin, Swift, SML, OCaml, Rust) or `Maybe` (in Haskell, Agda, Idris). Depending on the implementation, this type may be [monadic](https://en.wikipedia.org/wiki/Monad_(functional_programming)#An_example:_Maybe) or at least provide monadic benefits of type safe operation chaining based on pattern matching of its inner contents.
+The functional and type safe solution to this annoyance would be the the type `Option` or `Optional` (in Java, Scala, Kotlin, Swift, SML, OCaml, Rust) or `Maybe` (in Haskell, Agda, Idris). Depending on the implementation, this type may be [monadic](https://books.underscore.io/scala-with-cats/scala-with-cats.html#what-is-a-monad).
 
-In Scala, `Option` type has two subtypes `Some` or `None`. Going by the above box metaphor, if you think that in your variable there *maybe some* value or *optionally none* at all then you can it inside an `Option` box. To check for *valuables* in the box, you can simply check the type of the content instead of the value of the content itself. The type is `Some` if something is present or `None` otherwise. There also exists another trio like these called `Try`, `Success` and `Failure`, which essentially form a more concise syntax when catching exceptions could be needed as opposed to just dealing with presence or absence of values. 
+In Scala, `Option` is a monadic type and has two subtypes `Some` or `None`. We will discuss monads in the section on algebraic data types. For now, going by the above box or container metaphor, if you think that in your variable there *maybe some* value or *optionally none* at all then you can put it inside an `Option` box. To check if there are any *valuables* in the box, you can simply check the type of the content instead of various 'truthiness' checks or nullness checks on value of the content itself. The type is is guaranteed to be `Some` if something is present or `None` otherwise. There also exists another similar trio called `Try`, `Success` and `Failure` in Scala. They essentially form a more concise syntax and are used when catching exceptions could be needed as opposed to just dealing with presence or absence of values. 
 
-We will explore examples of the usage of these when we discuss pattern matching based on types and control flow structures like try-catch, match-case or for-yield. 
+We will explore examples of the usage of both of these trios when we later discuss pattern matching based on types and control flow structures like try-catch, match-case or for-yield. 
 
 _________________________________________________________________
 
 
 ### **The *Normie* Types**
 
-These are the boring types which will become interesting when we start composing them with others and weaving mind-bending (and hopefully helpful) structures later.
+These are the common, necessary but boring types that will become interesting when we start composing them with other types and weaving mind-bending - and hopefully helpful - structures later.
 
 #### I. Byte, Short and Int
 
@@ -134,7 +134,7 @@ scala> emoji.toInt
 res0: Int = 9786
 ```
 
-A `String` is defined as a sequence of `Char`s. You assign a string using quotes.:
+A `String` is defined as a sequence of `Char`s. You assign a string using quotes:
 
 ```TypeScript
 
@@ -145,10 +145,12 @@ val listToStr = List("If I'm not back in five minutes", "just wait longer").toSt
 
 ```
 
-Scala `String`s rely on `java.lang.String` but are also augmented by hundreds of methods from the `StringOps` class.
+Scala `String` relies on `java.lang.String` but is also augmented by many useful utility methods from the `StringOps` class. 
+
+> It is not necessary to learn these methods or those of any Scala type by heart. You should just get more intimate with the docs and always check the docs before writing a routine or standard looking operation on your own. You can likely also discover them using your IDE's autocomplete or inline documentations. 
 
 
-#### IV. The Big and the Rich
+#### IV. The Big and The Rich
 
 There are `StringOps` equivalents for the other the other value types called `RichBoolean`, `RichByte`, `RichChar`, `RichDouble`, `RichFloat`, `RichInt`, `RichLong` and `RichShort`. These [proxies](http://w3sdesign.com/?gr=s07&ugr=proble) provide additional methods to the above value types. Unlike the case in Java with its primitive and boxed reference types, this pattern allows for keeping the value types lightweight while still providing a rich API and therefore fewer use cases for boxing and unboxing for performance - convenience tradeoffs.
 
@@ -157,7 +159,9 @@ __________________________________________________________
 
 # Next on 'Types of Types'
 
-## 2. Functions with Data: Domain and Co-domain Spaces
+To keep the posts from going beyond optimal sizes, we will explore the next levels of understanding and defininh types in their own posts. Here's a sneak peek for each level. 
+
+## 2. Function weds Data: Domain and Co-domain Spaces
 
 Here we will introduce functions and methods together with objects and classes. We will see how OOP augments the power of functional programming and how best to avoid the many pitfalls of OOP.
 
@@ -185,13 +189,17 @@ Here we will rediscover the good old data structures mostly used in programming 
 
 ## 4. Algebraic Data Types and HKTs
 
-Here we will (re-)discover universal algebra and ring-like, group-like, lattice-like, module-like and algebra-like algebraic structures relevant to advanced programming.
+Here we will (re-)discover universal algebra, ring-like, group-like, lattice-like, module-like, and algebra-like algebraic structures relevant to advanced functional and reactive programming.
 
 ## 5. A Gentle Introduction to Category Theory
 
-Here we will use the Scala and Type Theory topics thus far to go for a deep dive into Bartoz Milewski's excellent [course on Category Theory ](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/). 
+Here we will use the Scala concepts and Type Theory topics thus far to go for a deep dive into Bartoz Milewski's excellent [course on Category Theory ](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/). 
 
-Beware that category theorists are sometimes insufferable and gave birth to memes like, 'A monad is just an endofunctor in the category of monoids. What's the problem?' or this one below:
+Beware that category theorists are sometimes insufferable and gave birth to memes like, 
+
+> 'A monad is just an endofunctor in the category of monoids. What's the problem?' 
+
+or this one below:
 
 ![meme_category_theory.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1586014084969/1Kio9oLYO.png)
 
