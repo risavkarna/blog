@@ -1,6 +1,6 @@
 ## MAP - III : Types of Types
 
-When talking about types in computer science, we could be talking about two types of types. Types from type theory are closely related to the type systems of programming languages. Both of these are fun and playing with them illuminates how any language works and may even help you obtain A3 to [L3-tier](https://www.scala-lang.org/old/node/8610) superpowers.
+When talking about types in computer science, we could be talking about two types of types. Types from type theory are closely related to the type systems of programming languages. Both of these are fun and playing with them illuminates how any language works. It may even help you obtain A3 or perhaps even [L3-tier](https://www.scala-lang.org/old/node/8610) superpowers.
 
 Previously in the [Mathematics' (An)architecture and Processes (MAP) series](https://risav.dev/mathematics-anarchitecture-and-processes-ck5nahog004z4qps1w98ldfz0), we have briefly touched upon Curry-Howard-Lambek isomorphism, which is a trifecta of independent realizations about, among other things, how propositions are types i.e. claims that are true or false, formal proofs, logical calculus' constraints and formulae are types too. With Scala's types, and Java 11+'s and Typescript's later, we will see what it actually means to say something as abstract as 'propositions are types' and why understanding these esoteric and zen sayings can make you a better programmer - in any language, with any kind of type system.
 
@@ -22,47 +22,47 @@ val heteroList: List[Any] = List(obligatory + goodbye, true, 42)
 // The composed type List[Any] allows use of any type in heteroList
 ```
 
-This is certainly just a picture and certainly not the whole picture. However we will get closer to types through this representation of types above.
+This is certainly just a picture and certainly not the whole picture. However we will get closer to types through this kind of programmatic representation of types above.
 
 > ![thisIsNotAPipe](https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg)
 
-> *This is not a pipe. This is just a representation of a pipe as a picture.*
+> *This is not a pipe. This is just a representation of a pipe.*
 
-Almost every programming construct that you can use has a type. Thus there are many types of types.
+Almost every programming construct that you can use has a type. It follows that there are many types of types.
 
 ## 1. Common Data Types: Syntactic and Semantic bits
 
-Let's start with the primitive ones. Types of data values are the easiest types to intuitively understand. At level 1, we will define type as a pre-defined value space for our data possibly along with a set of possible operations on the values in the value space.
+Let's start with the primitive ones. Types of data values are the easiest types to intuitively understand. Here at level 1, we will define type as a pre-defined value space for our data which possibly comes along with a set of allowed operations on the values in that value space.
 
-At level 1, you may find, for instance, a type that does not have any possible operations or one that is simply an alias to another type. These are merely syntactic types. All types have this syntactic aspect in the sense that a type definition tells the program compiler and the programmer that it adheres to the rules and constraints set by the programming language itself, especially regarding what is and isn't allowed to be done with a certain value.
+At level 1, you may find, for instance, a type that does not have any possible operations or one that is simply an alias of another type. These are merely syntactic types. All types have this syntactic aspect in the sense that a type definition ensures the program compiler - and the programmer - that it adheres to the rules and constraints set by the programming language itself, especially regarding what is and isn't allowed to be done with a certain variable or construct.
 
 For instance, if you find a type definition called `Money` in your program, it probably is a syntactic sugar representing some type of fixed or floating point numbering.
 
-The semantic aspect of a type would be about what it means to have a certain type in the first place i.e. what possible actions are possible on the type or what interactions are allowed with other types related to it.
+The semantic aspect of a type would be about what it means to have a certain type in the first place. For instance, type semantics could tell you what possible actions are possible on that type or what interactions are allowed with other types. 
 
-For a utility type like 'Money', the operations could be inherited arithmetic methods for addition or subtraction or a convenience method composed of other operations like interest rate calculation.
+For a utility type like 'Money', the operations could be inherited arithmetic methods for addition or subtraction or a convenience method composed of other operations like interest rate calculations.
 
 _________________________________________________________________
 
 ### **Any and Nothing**
 
-All types in Scala are different further derivations of the `Any` type. Informally, you may call it the mother of all types as it is the **top type** in Scala's type hierarchy.
+All types in Scala are different  derivations of the `Any` type. Informally, you may call it the mother of all types as it is the **top type** in Scala's type hierarchy.
 
-> `Any` of Scala is similar to the `Object` type defined by the class also named `Object` in Java. In TypeScript, there are two top types `any` and `unknown`. `any` just tells the compiler that it should not even bother to do any type checks. So compile time type safety due to aforementioned type syntactics and semantics is effectively disabled for that variable or constant of `any` type. So related bugs may only be discovered if unexpected operations are performed on that value at runtime - during testing (hopefully) or in production. `unknown` type signifies that the actual type is unknown yet but can be narrowed down based on runtime values using a language construct called type guards. 
+`Any` of Scala is similar to the `Object` type defined by the class also named `Object` in Java. In TypeScript, there are two top types `any` and `unknown`. `any` just tells the TypeScript compiler that it should not even bother to do any type checks. So compile time type safety due to aforementioned type syntactics and semantics is effectively disabled for that variable or constant of `any` type. So related bugs may only be discovered if unexpected operations are performed on that value at runtime - during testing (hopefully) or in production. `unknown` type signifies that the actual type is yet unknown but can be narrowed down and pin-pointed based on its runtime values, usually using a language construct called type guards. 
 
-`Any` has general definitions of `equals`, `hashCode` and `toString` methods. This means that `Any` type in Scala allows for checking whether anything equals another and what its hashed or string representation is, all puns intended.
+`Any` in Scala has general definitions of `equals`, `hashCode` and `toString` methods. This means that `Any` type in Scala allows for checking whether anything equals another and what its hashed or string representation is. All puns intended.
 
-Type theory and category theory, from which we have type systems in programming, also have something called a **bottom type**. It is called so because it is at the bottom of the type hierarchy i.e. any type has the bottom type as its subtype. Scala's bottom type is called `Nothing` as there is nothing you can assign to a variable or constant of type `Nothing`. If a function throws an exception instead of returning any value, it has nothing for a return type. We will find further uses of this in later posts, especially when we discuss covariance under parametric polymorphism.
+Type theory and category theory, from which we have type systems in programming, also have something called a **bottom type**. It is called so because it is at the bottom of the type hierarchy i.e. all types have the bottom type as their subtype. Scala's bottom type is called `Nothing` as there is nothing you can assign to a variable or constant of type `Nothing`. If a function throws an exception instead of returning any value, it has nothing for a return type. We will find further uses of this in later posts, especially when we discuss covariance under parametric polymorphism.
 
 _________________________________________________________________
 
 ### **AnyVal and AnyRef**
 
-You may directly be using or passing around a value from one memory location to another. These types of values are derived from `AnyVal` type, which itself is a descendant derived directly from the `Any` supertype.
+In programming, you may directly be using or passing around a value from one memory location to another. These types of values are derived from `AnyVal` type in Scala, which itself is a descendant derived directly from the `Any` supertype.
 
-You may also just be referring to where the value is located in your memory space instead of moving those values around. These reference types are descended from the `AnyRef` supertype, which itself descends directly from the `Any` type.
+You may also just be referring to where the value is located in your memory space instead of moving those values around. These variables have a reference type, which descends from the `AnyRef` supertype, which itself descends directly from the `Any` type.
 
-When you look at the documentation for a type, for example [Boolean](https://www.scala-lang.org/api/current/scala/Boolean$.html), might find methods that `box` or `unbox` a value. The `scala.Boolean` is a value type but it can be wrap your boolean value inside a 'box' made of `java.lang.Boolean`, which is a reference type. You might need to do this boxing to access reference type's methods or, in this case, to ensure interoperability with Java clients of your library. Similarly, you can also 'unbox' a reference type into a value type.
+When you look at the documentation for a type, for example [Boolean](https://www.scala-lang.org/api/current/scala/Boolean$.html), you might find methods that `box` or `unbox` a value. The `scala.Boolean` is a value type but you wrap your boolean value inside a 'box' made of `java.lang.Boolean`, which is a reference type. You might need to do this boxing to access reference type's methods or, in this case, to ensure interoperability with Java clients of your library. Similarly, you can also 'unbox' a reference type into a value type.
 
 _________________________________________________________________
 
