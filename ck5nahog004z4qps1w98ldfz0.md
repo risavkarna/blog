@@ -30,6 +30,6 @@ In the next post in this series, we will cover the origin of all of these ideas 
 
 > In the Land of Mordor where the Shadows lie
 
-> This, my dev, is our API
+> Are the rings, dear dev, that form our API
 
 ![E35F1ED4-6957-43BA-B216-B7E8A71ED5F6.jpeg](https://cdn.hashnode.com/res/hashnode/image/upload/v1579580392909/1zJXuCnDC.jpeg)
