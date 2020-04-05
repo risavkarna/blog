@@ -159,7 +159,7 @@ __________________________________________________________
 
 # Next on 'Types of Types'
 
-To keep the posts from going beyond optimal sizes, we will explore the next levels of understanding and defininh types in their own posts. Here's a sneak peek for each level. 
+To keep the posts from going beyond optimal lengths, we will explore each of the next 'levels' of understanding and defining types in their own posts. Here's a sneak peek. 
 
 ## 2. Function weds Data: Domain and Co-domain Spaces
 
@@ -195,7 +195,7 @@ Here we will (re-)discover universal algebra, ring-like, group-like, lattice-lik
 
 Here we will use the Scala concepts and Type Theory topics thus far to go for a deep dive into Bartoz Milewski's excellent [course on Category Theory ](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/). 
 
-Beware that category theorists are sometimes insufferable and gave birth to memes like, 
+Beware that category theorists are sometimes insufferable and gave birth to memes like this [one](http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html?m=1), 
 
 > 'A monad is just an endofunctor in the category of monoids. What's the problem?' 
 
