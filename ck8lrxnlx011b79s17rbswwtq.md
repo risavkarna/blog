@@ -1,6 +1,6 @@
 ## MAP - III : Types of Types
 
-When talking about types in computer science, we could be talking about two types of types. Types from type theory are closely related to the type systems of programming languages. Both of these are fun and playing with them illuminates how any language works. It may even help you obtain A3 or perhaps even [L3-tier](https://www.scala-lang.org/old/node/8610) superpowers.
+When talking about types in computer science, we could be talking about two types of types. Types from type theory are closely related to the types from from type systems used in programming languages. Both of these are fun and playing with them illuminates how any language works. It may even help you obtain A3 or perhaps even [L3-tier](https://www.scala-lang.org/old/node/8610) superpowers.
 
 Previously in the [Mathematics' (An)architecture and Processes (MAP) series](https://risav.dev/mathematics-anarchitecture-and-processes-ck5nahog004z4qps1w98ldfz0), we have briefly touched upon Curry-Howard-Lambek isomorphism, which is a trifecta of independent realizations about, among other things, how propositions are types i.e. claims that are true or false, formal proofs, logical calculus' constraints and formulae are types too. With Scala's types, and Java 11+'s and Typescript's later, we will see what it actually means to say something as abstract as 'propositions are types' and why understanding these esoteric and zen sayings can make you a better programmer - in any language, with any kind of type system.
 
