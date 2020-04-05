@@ -189,11 +189,11 @@ Here we will rediscover the good old data structures mostly used in programming 
 
 ## 4. Algebraic Data Types and HKTs
 
-Here we will (re-)discover universal algebra, ring-like, group-like, lattice-like, module-like, and algebra-like algebraic structures relevant to advanced functional and reactive programming.
+Here we will (re-)discover universal algebra, ring-like, group-like, lattice-like, module-like, and algebra-like algebraic structures relevant to advanced functional and reactive programming. We will also demystify higher kinded types and similarly exotic higher order concepts. 
 
 ## 5. A Gentle Introduction to Category Theory
 
-Here we will use the Scala concepts and Type Theory topics thus far to go for a deep dive into Bartoz Milewski's excellent [course on Category Theory ](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/). 
+Here we will use the Scala concepts and Type Theory topics thus far to go for a deep dive into Bartoz Milewski's excellent [course on Category Theory ](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
 
 Beware that category theorists are sometimes insufferable and gave birth to memes like this [one](http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html?m=1), 
 
