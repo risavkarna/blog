@@ -175,7 +175,7 @@ __________________________________________________________
 
 ## 3. Abstract Data Types: Types with Structure and Behavior
 
-Here we will rediscover the good old data structures mostly used in programming through a more formal, functional and scala-ble lens 🧐.
+Here we will rediscover the good old data structures mostly used in programming through a more formal, functional and scala-ble lens 🧐. Sum and product types will also pave the way for the more involved algebraic data types in the later section.
 
 ### 3.1 Sum and Product Types
 
@@ -205,7 +205,7 @@ Here we will use the Scala concepts and Type Theory topics thus far to go for a 
 
 Beware that category theorists are sometimes insufferable and gave birth to memes like this [one](http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html?m=1), 
 
-> 'A monad is just an endofunctor in the category of monoids. What's the problem?' 
+> 'A monad is just a monoid in the category of endofunctors, what's the problem?' 
 
 or this one below:
 
