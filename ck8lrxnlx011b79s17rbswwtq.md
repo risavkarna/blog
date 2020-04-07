@@ -1,8 +1,10 @@
 ## MAP - III : Types of Types
 
+> **This series does not aim to teach or preach any particular paradigm or language, whether it be functional/reactive/object-oriented or Scala/Java/TypeScript. We need to invert the wasteful trend of learning something as timeless as higher maths only as a means to learn an ephemeral or ever-changing programming language or paradigm. Let's aim instead to explain and discuss foundational mathematical structures like types and categories through these programming languages as visual learning aids. This will help us become better developers in any language, including new ones for quantum computing or even natural language-based programming. In Types of Types subseries of MAP, we will motivate using Scala why large-scale or mission critical systems requires types and related simple but powerful maths - things we have come to ignore as the market demands drone labor more.**  
+
 When talking about types in computer science, we could be talking about two types of types. Types from type theory are closely related to the types from from type systems used in programming languages. Both of these are fun and playing with them illuminates how any language works. It may even help you obtain A3 or perhaps even [L3-tier](https://www.scala-lang.org/old/node/8610) superpowers.
 
-Previously in the [Mathematics' (An)architecture and Processes (MAP) series](https://risav.dev/mathematics-anarchitecture-and-processes-ck5nahog004z4qps1w98ldfz0), we have briefly touched upon Curry-Howard-Lambek isomorphism, which is a trifecta of independent realizations about, among other things, how propositions are types i.e. claims that are true or false, formal proofs, logical calculus' constraints and formulae are types too. With Scala's types, and Java 11+'s and Typescript's later, we will see what it actually means to say something as abstract as 'propositions are types' and why understanding these esoteric and zen sayings can make you a better programmer - in any language, with any kind of type system.
+Previously in the [Mathematics' (An)architecture and Processes (MAP) series](https://risav.dev/mathematics-anarchitecture-and-processes-ck5nahog004z4qps1w98ldfz0), we have briefly touched upon Curry-Howard-Lambek isomorphism, which is a trifecta of independent realizations about, among other things, how propositions are types i.e. claims that are true or false, formal proofs, logical calculus' constraints and formulae are types too. With Scala's types, and Java 11+'s and TypeScript's later, we will see what it actually means to say something as abstract as 'propositions are types' and why understanding these esoteric and zen sayings can make you a better programmer - in any language, with any kind of type system.
 
 For getting started with types, we will come up with our working definition of types with increasing levels of technical depth. We will also be iteratively refining our definition and intuitions regarding what types are. As for how types look in programming, here are four simple examples:
 
@@ -203,7 +205,7 @@ __________________________________________________________
 
 Here we will use the Scala concepts and Type Theory topics thus far to go for a deep dive into Bartoz Milewski's excellent [course on Category Theory ](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/).
 
-Beware that category theorists are sometimes insufferable and gave birth to memes like this [one](http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html?m=1), 
+Beware that category theorists are sometimes insufferable and gave birth to memes like this [one](http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html?m=1): 
 
 > 'A monad is just a monoid in the category of endofunctors, what's the problem?' 
 
