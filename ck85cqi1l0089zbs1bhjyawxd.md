@@ -8,7 +8,7 @@ The core algorithm and the central model for this simulation was developed by Ma
 
 ## Teams That Formed This Team
 
-The aforementioned 'we' represents a growing collaboration. Manish and I have reached out to multiple organizations and individuals after he first shared his research. 
+The aforementioned 'we' represents a growing collaboration. [Manish](https://manishjt.com/) and I have reached out to multiple organizations and individuals after he first shared his research. 
 
 **[NAAMII](https://www.naamii.com.np/)**, an applied maths and AI based research non-profit, is the central body coordinating this entire effort. It has been instrumental in bringing together its network of experts in Nepal, US, UK, and Switzerland and has effectively created the platform Nepal has lacked for a national and international scale collaboration in this area.
 
