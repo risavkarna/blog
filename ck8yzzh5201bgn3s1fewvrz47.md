@@ -16,9 +16,9 @@ I would like to note a few concerning semantic and naming gymnastics pulled off 
 
 - **Infection/Death count**: Although it is implicit in the name, these numbers only reflect the known infections or known deaths. Either 'reported' or 'confirmed' prefixes as qualifiers might be needed more often than not in public communications. Even the richest countries have not had enough tests done per capita to know the correct numbers. 
 
-To make things worse, countries are scrambling to save face and keep there actual numbers hidden. NYC recently had a very unusually high surge in 'heart attack' related deaths. China somehow has ridiculously low number of new cases per day.
+To make things worse, countries are scrambling to save face and keep their actual numbers hidden. NYC recently had a very unusually high surge in 'heart attack' related deaths. China somehow has ridiculously low number of new cases per day.
 
-This part of the rant was inspired by Bill Maher making some sense in his [New Rule monologue](https://youtu.be/dEfDwc2G2_8) on the naming issue.
+This part of the rant was inspired by Bill Maher making some sense with his unpopular opinion in his [New Rule monologue](https://youtu.be/dEfDwc2G2_8) on the issue of naming the virus as per the academic tradition so far, among other things.
 
 Speaking of power-grabs, here is a chilling [Economist article](https://www.economist.com/briefing/2020/03/26/rich-countries-try-radical-economic-policies-to-counter-covid-19) about how the world will probably never be the same as countries move towards a new order.
 
