@@ -53,10 +53,10 @@ Here's an [excerpt from MDN](https://developer.mozilla.org/en-US/docs/Learn/Java
 
 > **A prototype-based language?**
 > 
-> JavaScript is often described as a prototype-based language — to provide inheritance, objects can have a prototype object, which acts as a template object that it inherits methods and properties from. An object's prototype object may also have a prototype object, which it inherits methods and properties from, and so on. 
+> **JavaScript is often described as a prototype-based language — to provide inheritance, objects can have a prototype object, which acts as a template object that it inherits methods and properties from. An object's prototype object may also have a prototype object, which it inherits methods and properties from, and so on.** 
 > 
-> This is often referred to as a prototype chain, and explains why different objects have properties and methods defined on other objects available to them.
-> Well, to be exact, the properties and methods are defined on the prototype property on the Objects' constructor functions, not the object instances themselves.
+> **This is often referred to as a prototype chain, and explains why different objects have properties and methods defined on other objects available to them.**
+> **Well, to be exact, the properties and methods are defined on the prototype property on the Objects' constructor functions, not the object instances themselves.**
 
 
 ### 2.2 Functions and Methods
@@ -246,7 +246,7 @@ Notice that the ordering of the `case`s matters because the fall through is simi
 
 Also note that all but the last `case` are still checking against values albeit of value objects. Only the last `case` is actually checking against a user defined type.
 
-We now have a good groundwork to look into try-catch and try-success-failure. We will also be looking into for, for-yield and foreach expressions once we have collection types in our arsenal by the end of the next post, where Scala/Mathematics concepts start to get real fun to play with. 
+We now have a good groundwork to look into try-catch and try-success-failure. We will also be looking into for, for-yield and foreach expressions once we have collection types in our arsenal by the end of the next post. That is also where Scala/Mathematics concepts start to get real fun to play with. 
 
 # Next on 'Types of Types'
 
