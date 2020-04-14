@@ -14,17 +14,19 @@ I would like to note a few concerning semantic and naming gymnastics pulled off 
 
 - **Lockdown**: A lockdown is a harsher word for a strict quarantine and conjures imprisonment related imagery due to semantic adjacency with 'lock up'. It's still more acceptable than 'curfew' though. In some places, stronger words might actually be necessary. However it brings resistance from the people in countries who are skeptical of their government's power grabs.
 
-- **Infection/Death count**: Although it is implicit in the name, these numbers only reflect the known infections or known deaths. Either 'reported' or 'confirmed' prefixes as qualifiers might be needed more often than not in public communications. Even the richest countries have not had enough tests done per capita to know the correct numbers. 
+- **Infection/Death count**: Although it is implicit in the name, these numbers only reflect the known infections or known deaths. Either 'reported' or 'confirmed' as qualifiers might be needed more often than not in public communications. Even the richest countries have not had enough tests done per capita to know the correct numbers. 
 
 To make things worse, countries are scrambling to save face and keep their actual numbers hidden. NYC recently had a very unusually high surge in 'heart attack' related deaths. China somehow has ridiculously low number of new cases per day.
 
-This part of the rant was inspired by Bill Maher making some sense with his unpopular opinion in his [New Rule monologue](https://youtu.be/dEfDwc2G2_8) on the issue of naming the virus as per the academic tradition so far, among other things.
+This part of the rant was inspired by Bill Maher making some sense with his unpopular opinion in his [New Rule monologue](https://youtu.be/dEfDwc2G2_8) on the issue of naming the virus as per the academic tradition, among other things.
 
 Speaking of power-grabs, here is a chilling [Economist article](https://www.economist.com/briefing/2020/03/26/rich-countries-try-radical-economic-policies-to-counter-covid-19) about how the world will probably never be the same as countries move towards a new order.
 
 > **"But history suggests that a return to pre-covid days is unlikely. Two lessons stand out. The first is that governmental control over the economy takes a large step up during periods of crisis—and in particular war. The second is that the forces encouraging governments to retain and expand economic control are stronger than the forces encouraging them to relinquish it, meaning that a “temporary” expansion of state power tends to become permanent."**
 
-If you are playing on the side of the virus, change of world order might not even seem like an unexpected change or news as outright destruction and global scale genocide is not beyond the realms of possibilities. In this regard, Ndemic's Plague Inc been my favorite strategy cum simulation game for quite a while. It has become depressingly prophetic, just like Black Mirror, but in a much more precise manner.
+If you are playing on the side of the virus, and people are albeit inadvertently, a change of world order might not even seem  unexpected or even news since outright destruction and global scale genocide is not beyond the realms of possibilities. 
+
+In this regard, Ndemic's Plague Inc been my favorite strategy cum simulation game for quite a while. It has become depressingly prophetic, just like Black Mirror, but in a much more precise manner.
 
 > **I have been infecting and killing the entire global population on and off for 5+ years now. In different scenarios and with different pathogens, it has mostly been the case that** 
 
@@ -44,6 +46,6 @@ If you are playing on the side of the virus, change of world order might not eve
 
 The key to our survival in this new *covidiocratic* world order would be to understand the signs and warnings we have had since many years, accept our past mistakes openly and move on together to fight the new ~~COVID-19~~ SARS virus. 
 
-Speaking of keys, I found myself quoting earlier to my friend the popular 3NF quote, "The key, the whole key and nothing but the key. So help me Codd". It reminded me that as computer scientists we cheekily beta substitute God or as developers of worlds and gamers in those worlds, we play God. Now is the absolute wrong time to have God-delusions or taking power hungry measures alike most of our political and high positioned covidiots.
+Speaking of keys, I found myself quoting earlier to my friend the popular 3NF ideal, "The key, the whole key and nothing but the key. So help me Codd". It reminded me that as computer scientists we don't shy away from [beta substituting](https://en.m.wikipedia.org/wiki/Lambda_calculus#%CE%B2-reduction_2) God. Or as developers of worlds and as gamers in those worlds, we roleplay as God. But we also see similar grandiose delusions among public leaders making excuses for power grabs. Now is the absolute wrong time to have God-delusions or taking power hungry measures alike those from our political and high positioned covidiots.
 
-The key is probably to be less covidiotic and more human. 
+The key is probably to be less covidiotic and more human. This needs to be normalized way beyond the known normal forms. 
