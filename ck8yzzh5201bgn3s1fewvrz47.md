@@ -4,7 +4,7 @@
 
 I would like to note a few concerning semantic and naming gymnastics pulled off by the media and WHO during this crisis. This list might become a lot longer in the future once I find the time to return back to it:
 
-- **Social Distancing**: We need to grow closer together than ever. What we need is 'physical distancing' from both the people and the things they touch. Very different things and very different kind of messaging.
+- **Social Distancing**: We actually need to grow closer together than ever. What we need is 'physical distancing' from both the people and the things they touch. Very different things and very different kind of messaging.
 
 - **COVID-19 virus**: This name for the virus instead of the actual technical name `SARS-CoV-2` (the virus that causes the COVID-19 disease) makes it sound as if this is a 2019+ problem. It completely hides the fact that this family of virus was known since 1930s and that human-infecting SARS related coronavirus have been known and are being warned about since the early 2000s. 
 
