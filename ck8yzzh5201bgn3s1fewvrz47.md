@@ -24,9 +24,9 @@ Speaking of power-grabs, here is a chilling [Economist article](https://www.econ
 
 > **"But history suggests that a return to pre-covid days is unlikely. Two lessons stand out. The first is that governmental control over the economy takes a large step up during periods of crisis—and in particular war. The second is that the forces encouraging governments to retain and expand economic control are stronger than the forces encouraging them to relinquish it, meaning that a “temporary” expansion of state power tends to become permanent."**
 
-If you are playing on the side of the virus, and people are albeit inadvertently, a change of world order might not even seem  unexpected or even news since outright destruction and global scale genocide is not beyond the realms of possibilities. 
+If you are playing on the side of the virus, and many people inadvertently are, a change of world order might not even seem  unexpected or even news since outright destruction and global scale genocide is not beyond the realms of possibilities. 
 
-In this regard, Ndemic's Plague Inc been my favorite strategy cum simulation game for quite a while. It has become depressingly prophetic, just like Black Mirror, but in a much more precise manner.
+In this regard, [Ndemic's Plague Inc](https://www.ndemiccreations.com/en/22-plague-inc)  been my favorite strategy cum simulation game for quite a while. It has become depressingly prophetic, just like Black Mirror, but in a much more precise manner.
 
 > **I have been infecting and killing the entire global population on and off for 5+ years now. In different scenarios and with different pathogens, it has mostly been the case that** 
 
@@ -46,6 +46,8 @@ In this regard, Ndemic's Plague Inc been my favorite strategy cum simulation gam
 
 The key to our survival in this new *covidiocratic* world order would be to understand the signs and warnings we have had since many years, accept our past mistakes openly and move on together to fight the new ~~COVID-19~~ SARS virus. 
 
-Speaking of keys, I found myself quoting earlier to my friend the popular 3NF ideal, "The key, the whole key and nothing but the key. So help me Codd". It reminded me that as computer scientists we don't shy away from [beta substituting](https://en.m.wikipedia.org/wiki/Lambda_calculus#%CE%B2-reduction_2) God. Or as developers of worlds and as gamers in those worlds, we roleplay as God. But we also see similar grandiose delusions among public leaders making excuses for power grabs. Now is the absolute wrong time to have God-delusions or taking power hungry measures alike those from our political and high positioned covidiots.
+Speaking of keys, I found myself quoting earlier to my friend the popular 3NF ideal, "The key, the whole key and nothing but the key. So help me Codd". It reminded me that as computer scientists we don't shy away from [beta substituting](https://en.m.wikipedia.org/wiki/Lambda_calculus#%CE%B2-reduction_2) God. Or as developers of worlds and as gamers in those worlds, we roleplay as God. But we also see similar grandiose delusions among many public leaders gaming our current world with their unjustified decisions and power grabs. Now is the absolute wrong time to have God-delusions or taking power hungry measures alike those from our political and high positioned covidiots.
 
-The key is probably to be less covidiotic and more human. This needs to be normalized way beyond the known normal forms. 
+The key is probably to be less covidiotic and more human. 
+
+(This needs to be normalized way beyond Codd's normal forms.)
