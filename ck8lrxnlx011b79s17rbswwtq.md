@@ -1,6 +1,6 @@
 ## MAP - III : Types of Types
 
-> **This series does not aim to teach or preach any particular paradigm or language, whether it be functional/reactive/object-oriented or Scala/Java/TypeScript. We need to invert the wasteful trend of learning something as timeless as higher maths only as a means to learn an ephemeral or ever-changing programming language or paradigm. Let's aim instead to explain and discuss foundational mathematical structures like types and categories through these programming languages as visual learning aids. This helps us become better developers in any language, including new ones for quantum computing or even natural language-based programming.**  
+> **We need to invert the wasteful trend of learning something as timeless as higher maths only as a means to learn an ephemeral or ever-changing programming language or paradigm. Let's aim instead to explain and discuss foundational mathematical structures like types and categories through these programming languages as visual learning aids. This helps us become better developers in any language, including new ones for quantum computing or even natural language-based programming.**  
 
 When talking about types in computer science, we could be talking about two types of types. Types from type theory are closely related to the types from from type systems used in programming languages. Both of these are fun and playing with them illuminates how any language works. It may even help you obtain A3 or perhaps even [L3-tier](https://www.scala-lang.org/old/node/8610) superpowers.
 
