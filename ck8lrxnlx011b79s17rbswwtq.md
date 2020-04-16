@@ -224,3 +224,5 @@ ______________________________________________________________
 3. Official Scala API Docs and resources: https://www.scala-lang.org/
 
 4. L.G. Meredith, Pro Scala: Monadic Design Patterns for the Web: http://patryshev.com/books/GregoryMeredith.pdf
+
+Cover image stolen from: https://medium.com/@olxc/the-evolution-of-a-scala-programmer-1b7a709fb71f
