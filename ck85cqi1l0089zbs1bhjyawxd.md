@@ -1,5 +1,8 @@
 ## COVID-19 Simulation for Nepal: A Call for Collaboration
 
+
+> **Update: We are pleased to announce that we have received an award from the COVID-19 HPC Consortium, an effort lead by USA's White House Office of Science and Technology Policy, the U.S. Department of Energy and IBM to bring together computing resources from different tech industry leaders so that it will accelerate the global fight against COVID-19. As a part of this platform, we will be coordinating with the resource providers working with our group on this research project and providing regular updates on our progress. You can find more information about our team and research on our website [covidsim.team](https://www.covidsim.team/).**
+
 We are a group of national and international experts and scientists in the area of public health research, quantum statistical modeling, artificial intelligence, big data analysis and semantification. Our current goal is to enhance our **powerful predictive models and simulation for the spread of COVID-19 in the Nepali population** given different scenarios and high level decisions, including the best and worst cases.
 
 Models and simulations based on our current approaches have many proven benefits including helping governments and relevant authorities make informed decisions. With large amounts of real world data and latest advancements in information technologies, we can discover previously unseen patterns and conclusions that cannot be attained through classical statistics and methods. We have a rare but highly prescient and state-of-the-art tool to potentially save many Nepali lives and livelihoods. 
