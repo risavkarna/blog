@@ -1,4 +1,4 @@
-## Architecture & Skunkworks
+## Anarchitecture & Skunkworks
 
 
 > **This article describes the road map for research & development in the area of enterprise collaboration architecture, unified research and sharing of intellectual and digital assets. We then describe how this enables nep.work to operate a Skunkworks-like cross-organizational framework for radical innovations not otherwise possible within the confines of organizational silos. **
