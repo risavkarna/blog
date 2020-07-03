@@ -9,7 +9,7 @@ Multiple pioneering players in industry are working on overlapping interests. Wh
 
 Skunkworks is a corporate practice that originated 77 years ago as a radical approach for quick delivery of better products than the competition. In Lockheed Martin's eponymous case, the end product was a fighter jet expected to fly 200 miles per hour faster than the best in competition - high-speed German fighter jets, which were literal threats - but to be completed in just 180 days. This originally utilized an isolation-based approach to enable radically innovative work. In its current form, it still bypasses bureaucracy via selective isolation but it judiciously crosses departments and even organizations especially when given the right tools and protocols. Ideally companies should be continuously innovating and not needing a dedicated Skunkworks team. However, we need to initially resolve the problem that low capital companies can only do incremental innovations despite much needed large-scale breakthroughs for the overall market, owing to a less literal but devastating threat from multinationals and powerful foreign players.
 
-Mass adoption of some of these enterprise technologies, both prospective or already developed, imply a tectonic shift in industry. Although these are not moonshot projects, these are still significantly challenging for most companies to carry out on their own. To this end, we have selectively consolidated parallel research and development efforts in multiple partnering companies to create a unified front that encompasses key areas of high interest to the business community. These projects will be open sourced under the stewardship of NAAMII's I \& I committee, which will also include various pioneering business leaders, and will have representations from the overall business community via a community process with an open RFC driven decision making. The main focus is on collaboratively solving the industry's present problems with the most significant returns on investment or impact on business workflow optimization.
+Mass adoption of some of these enterprise technologies, both prospective or already developed, imply a tectonic shift in industry. Although these are not moonshot projects, these are still significantly challenging for most companies to carry out on their own. To this end, we have selectively consolidated parallel research and development efforts in multiple partnering companies to create a unified front that encompasses key areas of high interest to the business community. These projects will be open sourced under the stewardship of NAAMII's I & I committee, which will also include various pioneering business leaders, and will have representations from the overall business community via a community process with an open RFC driven decision making. The main focus is on collaboratively solving the industry's present problems with the most significant returns on investment or impact on business workflow optimization.
 
 ### Concepts, Ontologies & Network Variants
 
@@ -39,7 +39,7 @@ Code can be 1 dimensional in case of numbers or non-nested arrays.
 #### Algebras 
 Codes have tuples of inputs which form algebraic structures and algebras.
 
-####Sciences 
+#### Sciences 
 Code libraries of academic contexts and custom constants and constraints.
 
 #### Environment
