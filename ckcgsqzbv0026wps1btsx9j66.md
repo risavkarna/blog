@@ -1,6 +1,6 @@
-## Suggestions from Papas and Uncles
+## Suggestions from Papa
 
-Here are some great tips from John Papa and why you should (not) follow them:
+Some great tips from John Papa and why you should (not) follow them:
 
 ## RxJS Subscriptions
 
@@ -117,3 +117,6 @@ One particularly remarkable use case of NgRX is the possibility to create truly 
 
 %[https://youtu.be/rz-rcaGXhGk]
 
+## More
+
+Best practices and patterns for complicated software from big companies are not always the best for simpler projects. I will add more such (anti)-patterns here.
