@@ -8,7 +8,7 @@ Some great tips from John Papa and why you should (not) follow them:
 
 The first one is from a 2019 ng-conf talk where he suggests that one should unsubscribe from all subscriptions reliably once we are done with them, typically in `ngOnDestroy`. 
 
-It would be unfortunate to install his friend's `subsink` library just so you can add all subscriptions to it and then unsubscribe from the sink. RxJS `Subscription` allows you to do this natively. Here's a code snippet from the  [Firebase RxJS guide](https://rxjs-dev.firebaseapp.com/guide/subscription) :
+It would be unfortunate to install his friend's `subsink` library just so you can add all subscriptions to it and then unsubscribe from all of the using a single unsubscribe to the sink. RxJS `Subscription` allows you to do this natively. Here's a code snippet from the [Firebase RxJS guide](https://rxjs-dev.firebaseapp.com/guide/subscription):
 
 ```JavaScript
 import { interval } from 'rxjs';
@@ -98,6 +98,15 @@ export class CounterComponent extends SelfUnsubable {
   }
 }
 ```
+But wait there's more. We can still do better.
+
+> Try your best to not subscribe in the first place!
+
+Why is it that you are bringing imperative programming by subscribing to your reactive streams in the first place? The `async` pipe is there to handle exactly this problem. You can even use `OnPush` change detection strategy if you are just putting the stream directly into your components. This is much more effective than relying on zone.js based default change detection strategy. Here are two helpful talks on this topic:
+
+%[https://youtu.be/-4cwkHNguXE]
+
+%[https://youtu.be/Z76QlSpYcck]
 
 ## NgRX Data
 
