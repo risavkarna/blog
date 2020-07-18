@@ -25,10 +25,19 @@ The user experience is designed with a decentralized burden of responsibility. E
 
 The client is a light weight UI and windowing system for ambient computing. It also powers VR/AR interactions apart from Smart TV and Smart phone interfaces. The NoSQL database provides all the necessary data to the local system. All data processing APIs for CouchDB data is able under Potato API provided by a `prox-e` ubiquitous server instance. 
 
+ 2,50,00,000 (25 KK) pouch instances, 753 couch instances and 7 potato instances will be needed for an optimal run in our system launch for Nepal. We are possibly starting with Lalitpur Municipality in the central Kathmandu valley and in Karnali remote province. 
+
 ### 3. Redis and pub-sub
+
+More intensive applications aside from the dashboard will be needed for other spreading disasters and calamities. For example, for flood-detection we need to be monitoring weather patterns and running the stream against our climate knowledge base pipelines. Similarly, an earthquake response system will guide us out of any building and towards safety only if we provide our software system with the authentic and real time 3D API of our surrounding reality. Since every concept in the system has its own data streams and behavior sets for any given context, it is easier to just fan-out using pub-sub and close-in using topics and filters. 
+
+Each topic has associated filtering processes related to identity, auth, context and content. Each component has multiple topics of linked data. A higher order component handles many such components including lazy loading components as needed. Our dashboard is capable of providing a windowing system overlaid on a map or some other 3D surface because every user experience of the system is channeled through a collection of components which in turn are a collection of pub-sub topics.
 
 ### 4. State and Data
 
+Our applications on their own and in integration have different system states. This data needs to be available and persisted. Without the ability to freeze and resume, we cannot really address all possible failure scenarios. Our systems use state and data management to travel back and forth in time and test itself in parallel even when it is being used. 
+
+Because fuzzers and testers of this system continually emulate all possible states and data interactions - using actions, effects and reducers, we are able to have high confidence in the system. And in the new parts of the system that the overall system creates for itself based on the results of those tests and fuzzers. 
 
 ## b. Reactive Components
 
