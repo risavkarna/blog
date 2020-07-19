@@ -8,7 +8,10 @@ Initially, [covidsim.team](https://www.covidsim.team/)’s dashboard (user inter
  
 Now that [covidsim.team](https://www.covidsim.team/) is committed to testing the usage of some newly created forms by our public health team using this platform, we are going to need a proper development process for this national scale ambition. This BDD-based process is applicable for any quadrant in the [Cynefin model](https://hbr.org/2007/11/a-leaders-framework-for-decision-making).
 
-These forms and visualizations of related data are quite trivial parts of the underlying system, technically speaking. However, these are the primary way for any user to interact with our COVID-specific system components currently and they effectively form a portal to the rest of my collaborative systems. Hence it is vital to us to define the behavioral specifications for each of the newly designed forms, data files or visualizations. Without a clear consensus on the new behavior, the new feature cannot - and therefore will not - be made. These specifications will be stored on cosys.work's Nepali servers only. We will require approvals and editing from a single point of contact from the customers and me or a software lead we appoint in the future. Updates to the documents should be notified via emails.
+
+![R0711C_A.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1595142789225/gEK9TuyUK.gif)
+
+These forms and visualizations of related data that we are about to roll out are quite trivial parts of the underlying system, technically speaking. However, these are the primary way for any user to interact with our COVID-specific system components currently and they effectively form a portal to the rest of my collaborative systems. Hence it is vital to us to define the behavioral specifications for each of the newly designed forms, data files or visualizations. Without a clear consensus on the new behavior, the new feature cannot - and therefore will not - be made. These specifications will be stored on cosys.work's Nepali servers only. We will require approvals and editing from a single point of contact from the customers and me or a software lead we appoint in the future. Updates to the documents should be notified via emails.
 
 ### BDD Examples, Links and Resources
 
@@ -18,13 +21,17 @@ A BDD feature file consists of one or more scenarios. These scenarios are just e
 
 
 > Given I am on the login page
+
 > When I attempt to login with valid credentials
+
 > Then I am shown the application dashboard
 
 And another scenario that says:
 
 > Given I am on the login page
+
 > When I attempt to login with invalid credentials
+
 > Then I am shown a login error message
 
 These examples are written in English, but are still very structured. The Given portion tells the starting condition for the example, the When line tells what you actually do, and the Then tells what results are expected. 
@@ -45,14 +52,20 @@ For example, our first user story could be about how someone from a municipality
 Another user story we might need soon after launch is the story that imagines and describes how a user from EDCD/NPHL/NHRC/CCMC/MOHP could upload to the system. In this case, we may assert in the given clause that the user is already logged in. We could also create a user persona e.g. Biplav is a non-technical user at EDCD. So, this story could initially look like this:
 
 > **Given** Biplav is logged in to the dashboard
+
 > **When** Biplav clicks the CSV file uploader in the left sidebar
+
 > **Then** Biplay should be able to select, preview, review, upload **or** cancel the upload 
 
 These kinds of user stories may need further breakdown. This breakdown itself will also consist of more GWT sets. For example, this GWT set further explains what the system should do:
 
-**Given** Biplav has selected a CSV file to upload to the database using the file uploader **and** Biplav has not yet confirmed the upload
-**When** The system informs him of any mistakes e.g. how the CSV headers are labeled [+as many examples as possible]
-**Then** Biplay should be able to edit the CSV headers **and/or** data before he cancels **or** confirms upload of the data.
+> **Given** Biplav has selected a CSV file to upload to the database using the file uploader **and** Biplav has not yet confirmed the upload
+
+> **When** The system informs him of any mistakes e.g. how the CSV headers are labeled [+as many examples as possible]
+
+> **Then** Biplay should be able to edit the CSV headers **and/or** data before he cancels **or** confirms upload of the data.
+
+![bdd-practices-diagram.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1595142730242/xAIf2p5vm.png)
 
 How the system **could** behave is a crucial part of the development process. This is the **discovery phase** and is typically gathered via interactive sessions and workshops with some of the potential users of the system. The discovery phase allows for surfacing and formalizing organizational rules and a shared understanding. 
 
