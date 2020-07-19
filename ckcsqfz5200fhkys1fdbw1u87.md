@@ -48,7 +48,23 @@ Another thing to note is that these Given-When-Then behavior specifications are 
 
 ### User Story -> Agreement -> Implementation
 
-A user story is a story created about how a user might use the system. These are usually sent over to the development team by the customer organization or written by the project manager. This will typically consist of a few Given-When -Then sentences with logical connectives like 'and', 'or', 'not', 'with', 'but', 'once' or 'never'. Note that popular BDD tools like Gherkin only permit 'and' and 'but' aside from 'given', 'when' and 'then'.
+A user story is a story created about how a user might use the system. These are usually sent over to the development team by the customer organization or written by the project manager. A user story usually follows the format:
+
+> As a <user-role>
+
+> I want <to have software interaction(s) or new feature description(s)>
+
+> So I can <have new capacity or behavior>
+
+E.g.:
+
+> As an admin user
+
+> I want to be able to create and delete non-admin user accounts
+
+> So I can add new employees as users to the system whenever needed
+
+Sometimes it is okay to just have 'As a user' as the first sentence. Since this is a common role and context, it is okay to bundle a bunch of user stories under a single 'As a user' block. After agreeing about such a story and the necessary features, a team makes a BDD spec for that user story. It will typically consist of a few Given-When-Then described features with logical connectives like 'and', 'or', 'not', 'with', 'but', 'once' or 'never'. Note that popular BDD tools like Gherkin only permit 'and', '*' and 'but' aside from 'given', 'when' and 'then'.
 
 For example, our first user story could be about how someone from a municipality office logs in to her/his municipality’s system and what pages and data the user could expect to see and use. This story may have different scenarios e.g. whether or not the login credentials were valid, like in the earlier examples from Mark Shead.
 
