@@ -69,6 +69,6 @@ These kinds of user stories may need further breakdown. This breakdown itself wi
 
 How the system **could** behave is a crucial part of the development process. This is the **discovery phase** and is typically gathered via interactive sessions and workshops with some of the potential users of the system. The discovery phase allows for surfacing and formalizing organizational rules and a shared understanding. 
 
-An even more important part of development is the finer details of how the system **should** behave. This is done in the **formulation phase**. We create specifications, mocks, wireframes and feasible o
+An even more important part of development is the finer details of how the system **should** behave. This is done in the **formulation phase**. We create specifications, mocks, wireframes and break user stories into feasible epics or tasks in this phase.
 
 **Automation** phase is about how the system actually behaves. Validation and demonstration of each automated process may lead to further discoveries and formulations.
