@@ -68,7 +68,7 @@ Sometimes it is okay to just have 'As a user' as the first sentence. Since this 
 
 For example, our first user story could be about how someone from a municipality office logs in to her/his municipality’s system and what pages and data the user could expect to see and use. This story may have different scenarios e.g. whether or not the login credentials were valid, like in the earlier examples from Mark Shead.
 
-Another user story we might need soon after launch is the story that imagines and describes how a user from EDCD/NPHL/NHRC/CCMC/MOHP could upload to the system. In this case, we may assert in the given clause that the user is already logged in. We could also create a user persona e.g. Biplav is a non-technical user at EDCD who is responsible for EDCD side of data updates to the system everyday. 
+Another user story we might need soon after launch is the story that imagines and describes how a user from EDCD/NPHL/NHRC/CCMC/MOHP could upload to the system. In this case, we may assert in the given clause that the user is already logged in. We could also create a [user persona](https://www.hindsightsoftware.com/persona-cards-product-owner) e.g. Biplav is a non-technical user at EDCD who is responsible for EDCD's side of data updates to the system every day. 
 
 So, this story could initially look like this:
 
