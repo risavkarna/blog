@@ -2,7 +2,7 @@
 
 ## Introduction to Behavior Driven Development
 
-Software development and project management in general traditionally focuses on a plan for success. This is not good enough for mission-critical and civilization scale software that also must plan for failure. 
+Software development and project management is general traditionally focuses on a plan for success. This is not good enough for mission-critical and civilization scale software that also must plan for failure and for moving from failure or incompleteness to success or release regularly. 
 
 Initially, [covidsim.team](https://www.covidsim.team/)’s dashboard (user interface for data visualization and inputs) and related systems like our self-hosted cloud drive (collaborative editors and storage for Word, Excel, PowerPoint, Images) and supercomputer management software (custom VPS manager) were meant only for internal usage within the research team. And since I was the only one working on the system since 2015, I did not find it necessary to formalize my software development process with a development team in mind.
  
