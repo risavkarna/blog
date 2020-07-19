@@ -21,6 +21,7 @@ Example from: [blogs.harvard.edu/markshead](https://blogs.harvard.edu/markshead/
 
 A BDD feature file consists of one or more scenarios. These scenarios are just examples of how the application should behave from the standpoint of a user. For example, you might have a scenario that says:
 
+> Feature: User Login 
 
 > Given I am on the login page
 
@@ -39,17 +40,23 @@ And another scenario that says:
 These examples are written in English, but are still very structured. The Given portion tells the starting condition for the example, the When line tells what you actually do, and the Then tells what results are expected. 
 ____________________________________________________________________________________________________
 
-More formally speaking, the given clause is there to define the pre-conditions and context for a new feature. Similarly, the when clause is there to define the user action or a software event that may need a reaction or response from the system. Finally, the then clause is there to describe the reaction, response or output expected from the system for this [scenario](https://automationpanda.com/2017/01/30/bdd-101-writing-good-gherkin/).
+More formally speaking, the given clause is there to define the pre-conditions and context for a new feature. Similarly, the when clause is there to define the user action or a software event that may need a reaction or response from the system. Finally, the then clause is there to describe the reaction, response or output expected from the system for this [scenario](https://automationpanda.com/2017/01/30/bdd-101-writing-good-gherkin/). 
+
+Adding feature description underneath the feature title is advisable but not usually necessary for trivial and well understood features like a normal login flow. You can also add freeform text descriptions under headers like `Example`, `Scenario`, `Background`, `Scenario Outline` and `Rule` followed by a colon (:) just like with `Feature:` above.
 
 Another thing to note is that these Given-When-Then behavior specifications are not just documentational or prescriptive. They become a part of the source code of the software. The modules that have these specifications only perform what is specified in the Given-When-Then specs - nothing more, nothing less. These specifications and the software itself may change as frequently as the real-world requirements of the software change e.g. every second or week. 
 
 ### User Story -> Agreement -> Implementation
 
-A user story is a story created about how a user might use the system. These are usually sent over to the development team by the customer organization or written by the project manager. This will typically consist of a few Given-When -Then sentences with logical connectives like 'and', 'or', 'not', 'with', 'but', 'once' or 'never'.
+A user story is a story created about how a user might use the system. These are usually sent over to the development team by the customer organization or written by the project manager. This will typically consist of a few Given-When -Then sentences with logical connectives like 'and', 'or', 'not', 'with', 'but', 'once' or 'never'. Note that popular BDD tools like Gherkin only permit 'and' and 'but' aside from 'given', 'when' and 'then'.
 
-For example, our first user story could be about how someone from a municipality office logs in to her/his municipality’s system and what pages and data the user could expect to see and use. 
+For example, our first user story could be about how someone from a municipality office logs in to her/his municipality’s system and what pages and data the user could expect to see and use. This story may have different scenarios e.g. whether or not the login credentials were valid, like in the earlier examples from Mark Shead.
 
-Another user story we might need soon after launch is the story that imagines and describes how a user from EDCD/NPHL/NHRC/CCMC/MOHP could upload to the system. In this case, we may assert in the given clause that the user is already logged in. We could also create a user persona e.g. Biplav is a non-technical user at EDCD. So, this story could initially look like this:
+Another user story we might need soon after launch is the story that imagines and describes how a user from EDCD/NPHL/NHRC/CCMC/MOHP could upload to the system. In this case, we may assert in the given clause that the user is already logged in. We could also create a user persona e.g. Biplav is a non-technical user at EDCD who is responsible for EDCD side of data updates to the system everyday. 
+
+So, this story could initially look like this:
+
+> Feature: CSV File Upload
 
 > **Given** Biplav is logged in to the dashboard
 
@@ -59,18 +66,39 @@ Another user story we might need soon after launch is the story that imagines an
 
 These kinds of user stories may need further breakdown. This breakdown itself will also consist of more GWT sets. For example, this GWT set further explains what the system should do:
 
+> Feature: CSV File Upload
+
+> Scenario Outline: Invalid CSV File Review
+
 > **Given** Biplav has selected a CSV file to upload to the database using the file uploader **and** Biplav has not yet confirmed the upload
 
-> **When** The system informs him of any mistakes e.g. how the CSV headers are labeled [+as many examples as possible]
+> **When** The system informs him of any mistakes like "<csv-invalid>" mistake
 
-> **Then** Biplay should be able to edit the CSV headers **and/or** data before he cancels **or** confirms upload of the data.
+> **Then** Biplav should be able to edit the CSV headers **and/or** data before he cancels **or** confirms upload of the data.
 
+> Examples: Mistakes
+
+> | csv-invalid | 
+
+> | invalid number of rows |
+
+> | a non-standard font or language is used |
+
+> | the file is encrypted or corrupted |
+
+We can have many examples of inputs, outputs or options in general in the example section to clarify things. 
+
+A **Given** sentence can be directly followed by a **Then** sentence too. It is usually okay to put such statements as a rule e.g.:
+
+> Rule: Selecting an invalid CSV file should not disallow correction and eventual upload of the CSV file.
 ____________________________________________________________________________________________________
 
 ![bdd-practices-diagram.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1595142730242/xAIf2p5vm.png)
 
 Picture from:  [cucumber.io](https://cucumber.io/docs/bdd/) 
 ____________________________________________________________________________________________________
+
+> Note that we use this same structure every time because this has to be understood by a software too and not just the developers and planners.
 
 How the system **could** behave is a crucial part of the development process. This is the **discovery phase** and is typically gathered via interactive sessions and workshops with some of the potential users of the system. The discovery phase allows for surfacing and formalizing organizational rules and a shared understanding. 
 
