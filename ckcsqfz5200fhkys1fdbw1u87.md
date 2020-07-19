@@ -11,11 +11,13 @@ Now that [covidsim.team](https://www.covidsim.team/) is committed to testing the
 
 ![R0711C_A.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1595142789225/gEK9TuyUK.gif)
 
+Picture from: [Harvard Business Review](https://hbr.org/2007/11/a-leaders-framework-for-decision-making) 
+
 These forms and visualizations of related data that we are about to roll out are quite trivial parts of the underlying system, technically speaking. However, these are the primary way for any user to interact with our COVID-specific system components currently and they effectively form a portal to the rest of my collaborative systems. Hence it is vital to us to define the behavioral specifications for each of the newly designed forms, data files or visualizations. Without a clear consensus on the new behavior, the new feature cannot - and therefore will not - be made. These specifications will be stored on cosys.work's Nepali servers only. We will require approvals and editing from a single point of contact from the customers and me or a software lead we appoint in the future. Updates to the documents should be notified via emails.
 
 ### BDD Examples, Links and Resources
 
-From: [blogs.harvard.edu/markshead](https://blogs.harvard.edu/markshead/what-is-behavior-driven-development/) 
+Example from: [blogs.harvard.edu/markshead](https://blogs.harvard.edu/markshead/what-is-behavior-driven-development/) 
 
 A BDD feature file consists of one or more scenarios. These scenarios are just examples of how the application should behave from the standpoint of a user. For example, you might have a scenario that says:
 
@@ -43,8 +45,6 @@ Another thing to note is that these Given-When-Then behavior specifications are 
 
 ### User Story -> Agreement -> Implementation
 
-From:  [cucumber.io](https://cucumber.io/docs/bdd/) 
-
 A user story is a story created about how a user might use the system. These are usually sent over to the development team by the customer organization or written by the project manager. This will typically consist of a few Given-When -Then sentences with logical connectives like 'and', 'or', 'not', 'with', 'but', 'once' or 'never'.
 
 For example, our first user story could be about how someone from a municipality office logs in to her/his municipality’s system and what pages and data the user could expect to see and use. 
@@ -65,7 +65,12 @@ These kinds of user stories may need further breakdown. This breakdown itself wi
 
 > **Then** Biplay should be able to edit the CSV headers **and/or** data before he cancels **or** confirms upload of the data.
 
+____________________________________________________________________________________________________
+
 ![bdd-practices-diagram.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1595142730242/xAIf2p5vm.png)
+
+Picture from:  [cucumber.io](https://cucumber.io/docs/bdd/) 
+____________________________________________________________________________________________________
 
 How the system **could** behave is a crucial part of the development process. This is the **discovery phase** and is typically gathered via interactive sessions and workshops with some of the potential users of the system. The discovery phase allows for surfacing and formalizing organizational rules and a shared understanding. 
 
