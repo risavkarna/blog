@@ -93,12 +93,14 @@ A **Given** sentence can be directly followed by a **Then** sentence too. It is 
 > Rule: Selecting an invalid CSV file should not disallow correction and eventual upload of the CSV file.
 ____________________________________________________________________________________________________
 
+> Note that we use this same structure every time because this has to be understood by software too and not just the humans.
+
+Gherkin is a popular software interpretable GWT syntax. It is used to run behavior driven tests in the Cucumber testing framework. You can find the reference for the Gherkin syntax [here](https://cucumber.io/docs/gherkin/reference/).
+
 ![bdd-practices-diagram.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1595142730242/xAIf2p5vm.png)
 
 Picture from:  [cucumber.io](https://cucumber.io/docs/bdd/) 
 ____________________________________________________________________________________________________
-
-> Note that we use this same structure every time because this has to be understood by a software too and not just the developers and planners.
 
 How the system **could** behave is a crucial part of the development process. This is the **discovery phase** and is typically gathered via interactive sessions and workshops with some of the potential users of the system. The discovery phase allows for surfacing and formalizing organizational rules and a shared understanding. 
 
