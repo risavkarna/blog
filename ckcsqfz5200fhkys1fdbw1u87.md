@@ -48,13 +48,13 @@ Another thing to note is that these Given-When-Then behavior specifications are 
 
 ### User Story -> Agreement -> Implementation
 
-A user story is a story created about how a user might use the system. These are usually sent over to the development team by the customer organization or written by the project manager. A user story usually follows the format:
+User's needs are told as user stories. Thus a user story is a story created about how a user might use the system. These are usually sent over to the development team by the customer organization or written by the project manager. A user story usually follows the format:
 
-> As a <user-role>
+> As a <user-role> [WHO]
 
-> I want <to have software interaction(s) or new feature description(s)>
+> I want <to have software interaction(s) or new feature description(s)>  [WHAT]
 
-> So I can <have new capacity or behavior>
+> So I can <have new capacity or behavior> [WHY]
 
 E.g.:
 
