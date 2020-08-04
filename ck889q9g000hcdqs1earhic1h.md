@@ -104,7 +104,7 @@ In a browser, enter ```localhost:9000``` to view the welcome page.
 We will be making use of nodejs' package manager npm, which comes bundled with nodejs. Download it from the [download page](https://nodejs.org/en/download/) of their site or via your package manager as explained [here](https://github.com/nodesource/distributions/blob/master/README.md). For example, to get Node.js v13.x (with full ICU/i18n support by default) on Ubuntu you would run: 
 
 ```
-curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
