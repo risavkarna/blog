@@ -124,7 +124,7 @@ Now we need to update the path environment variables by adding the following in 
 ```
 # set node to use user's chowned directory
 export PATH="$PATH:$HOME/.npm/prefix/bin"
-export NODE_PATH="$NODE_PATH:$HOME/.npm/prefix/lib/node_modules"
+export NODE_PATH="$HOME/.npm/prefix/lib/node_modules"
 ```
 
 After saving the above addition to the file, you have source the file e.g.
