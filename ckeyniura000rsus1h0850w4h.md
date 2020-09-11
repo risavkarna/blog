@@ -4,19 +4,19 @@
 
 > We are a community that develops omnichannel platforms for sales and delivery of services through work contract exchanges and pre-purchases. 
 
-Or at least that is how I introduced nep.work on Jan 1, 2020. Note that, as developers of a general-purpose enterprise platform, we mention services in general and never some specific or type or range of services. However, by February, nep.work founders were starting to work more than "full-time" on our new-found devotion towards highly specific services providing COVID-19 combating solutions. The current beta of nep.work is thus essentially a COVID oriented rethinking of everything we wanted to do before.
+Or at least that is how I [introduced nep.work](https://risav.dev/introducing-nepwork-ck5294zz401bvmus1p2oskup0) on Jan 1, 2020. Note that, as developers of a general-purpose enterprise platform, we mention services in general and never some specific or type or range of services. However, by February, nep.work founders were starting to work more than "full-time" on our new-found devotion towards highly specific services providing COVID-19 combating solutions. The current beta of nep.work is thus essentially a COVID oriented rethinking of everything we wanted to do before.
 
 We are still a community - a bigger, stronger one than before with many cross-disciplinary teams. 
 
 We still develop omnichannel platforms - but we now focus on the entire supply chain, not just for sales and delivery of the services.
 
-## Requirement re-engineering and organizational business workflow studies
+## Requirement re-engineering and business workflow studies
 
 However, we are proud to be now be specializing like this to create a software ecosystem that is COVID-aware and, in many cases, redesigned with COVID concerns at the front and center. Because of this we have also had a stronger focus on human-human interactions around our systems too instead of just human-machine interactions via our user interfaces. Thus, COVID has also forced us to rethink nep.work's core project BOSS (Business Optimization & Security Services) where business workflows are the primary concern. 
 
-We have worked with various Nepali organizations big and small to understand how classically accepted business-customer interactions can best be made digital without loss of monetary value or legal acceptance. We have also created robust integrations for project management, team management and project related bookkeeping for both technical and non-technical business projects. 
+To this end, we have also worked with various Nepali organizations, big and small, to understand how classically accepted business-customer interactions can best be made digital without loss of monetary value or legal acceptance. We have also created robust integrations for project management, team management and project related bookkeeping for both technical and non-technical business projects. 
 
-We have been able to digitally revitalize a few businesses dying of COVID recently and are hoping for a lot more. Our depth and width of integrated services for Nepali businesses is unparalleled and going by our enterprise feature sets' growth rate, we will remain the ones breaking our own records and raising our own bars for quite a long time.
+We have already been able to digitally revitalize a few businesses dying of COVID recently and are hoping for a lot more such uplifting stories. Our depth and width of integrated services for Nepali businesses is unparalleled and going by our enterprise feature sets' growth rate, we will remain the ones breaking our own records and raising our own bars for quite a long time.
 
 ## Payments: Simplified so much, it is mathematically impossible to further simplify
 
