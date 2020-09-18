@@ -4,7 +4,7 @@
 
 > We are a community that develops omnichannel platforms for sales and delivery of services through work contract exchanges and pre-purchases. 
 
-Or at least that is how I [introduced nep.work](https://risav.dev/introducing-nepwork-ck5294zz401bvmus1p2oskup0) on Jan 1, 2020. Note that, as developers of a general-purpose enterprise platform, we mention services in general and never some specific type or range of services. However, by February, nep.work founders were starting to work more than "full-time" on our new-found devotion towards highly specific services providing COVID-19 combating solutions. The current beta of nep.work is thus essentially a COVID oriented rethinking of everything we wanted to do before.
+Or at least that is how I [introduced nep.work](https://risav.dev/introducing-nepwork-ck5294zz401bvmus1p2oskup0) on Jan 1, 2020. Note that, as developers of a general-purpose enterprise platform, we mention services in general and *never* in the context of some specific type or range of services. However, by February, nep.work founders were starting to work more than "full-time" on our new-found devotion towards highly specific services providing COVID-19 combating solutions. The current beta of nep.work is thus essentially a COVID oriented rethinking of everything we wanted to do before.
 
 We are still a community - a bigger, stronger one than before with many cross-disciplinary teams. 
 
