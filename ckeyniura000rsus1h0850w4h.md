@@ -39,7 +39,9 @@ As a semantically and contextually aware business assistant. An operations resea
 
 And as a hospitality platform operational at every accessible venue instead of a particular location (e.g. hotel, stadium, government offices, hospital, website, app, etc.).
 
-And then there are also these little things that we said since the very first time that we are:
+___________________________________________________________
+
+And then there are also these little things that we said since the very first time that we are proud to be:
 
 ## Omni-channel
 
