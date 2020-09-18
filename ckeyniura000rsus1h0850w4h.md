@@ -8,7 +8,7 @@ Or at least that is how I [introduced nep.work](https://risav.dev/introducing-ne
 
 We are still a community - a bigger, stronger one than before with many cross-disciplinary teams. 
 
-We still develop omnichannel platforms - but we now focus on the entire supply chain, not just for pre-purchases, sales, and delivery of the services.
+We still develop omnichannel platforms - but we now focus on the entire supply chain, not just on pre-purchases, sales, and delivery of the services.
 
 ## Requirement re-engineering and business workflow studies
 
