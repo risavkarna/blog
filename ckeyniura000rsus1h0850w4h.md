@@ -4,7 +4,7 @@
 
 > We are a community that develops omnichannel platforms for sales and delivery of services through work contract exchanges and pre-purchases. 
 
-Or at least that is how I [introduced nep.work](https://risav.dev/introducing-nepwork-ck5294zz401bvmus1p2oskup0) on Jan 1, 2020. Note that, as developers of a general-purpose enterprise platform, we mention services in general and *never* in the context of some specific type or range of services. However, by February, nep.work founders were starting to work more than "full-time" on our new-found devotion towards highly specific services providing COVID-19 combating solutions. The current beta of nep.work is thus essentially a COVID oriented rethinking of everything we wanted to do before.
+Or at least that is how I [introduced nep.work](https://risav.dev/introducing-nepwork-ck5294zz401bvmus1p2oskup0) on Jan 1, 2020. Note that, as developers of a general-purpose enterprise platform, we always mention services in a general sense and *never* in just the context of some specific type or range of services. However, by February, nep.work founders were starting to work more than "full-time" on our new-found devotion towards highly specific services providing COVID-19 combating solutions. The current beta of nep.work is thus essentially a COVID oriented rethinking of everything we wanted to do before.
 
 We are still a community - a bigger, stronger one than before with many cross-disciplinary teams. 
 
@@ -24,24 +24,24 @@ One big elephant in the room, that we wanted to actually just shoot and be done 
 
 And we built exactly that. The least amount of unique information that uniquely identifies you in the merchant network (like that provided by the leading payment gateway in Nepal) is enough to send and receive money. The system still requires AI-assisted KYC/AML* related form fill-ups but there is no hiccup after that. You can literally just drag and drop some money into your friend's pockets. We were also thinking of strangers who just want to give back to the community by giving a little something to you in times of need. So, we came up with simplified UI with a drag-and-drop semantics or just a type-and-filter semantics for our maximally streamlined payment systems. Essentially you just need to select a friend from a dropdown and the amount is sent or you just drag and drop different amounts of money to different circles representing different users each. This is handy in a poker-tournament-like situation or when you need to send money as a group of users to another group of users for, say, a charity event. 
 
-* We think it is a dangerous idea to build AML-detection ML/AI/Semantic algorithms alone. Such huge responsibilities are best handled by a group of cross-disciplinary experts. 
+> **We think it is a dangerous idea to build AML-detection ML/AI/Semantic algorithms alone. Such huge responsibilities are best handled by a group of cross-disciplinary experts.**
 
 
 ## Digital Contracts and Exchanges
 
 Work contract exchanges and pre-purchases are still at the core of what we do. Notice that the exchange and trading of contractual documents are vastly different and more abstract than just creating or enforcing those contracts. Contracts are at the core of all assets and trades and thus also a first-class citizen of the nep.work platform.
 
-Existing work contracts for each employee or business partner can get scanned and digitally signed. The nep.work-parsed contract now understands the concept of day-to-day business workflows and individual responsibilities distributed among the parties in the contract. All of these functional and behavioral descriptions of the workflow of businesses are analyzed by our system using the related contracts in the system. All the project management, team management, and customer relationship management capabilities are thus driven by the business logic derived from the contracts and agreements between all parties involved. Knowledge of the contracts also helps us in our additional plugin services for bookkeeping, customized ledgers, and product inventory management solutions. When your team members are working on any part of the contract, the system can now be aware of the current context e.g. patient searching a product category on the website or an employee looking up a return policy for a certain item. The former would receive intelligent assistance to help with the shopping - if needed. The latter would receive a complete takeover of the system in contextually looking up the specific business document needed.
+Existing work contracts for each employee or business partner can get scanned and digitally signed. The nep.work-parsed contract now understands the concept of day-to-day business workflows and individual responsibilities distributed among the parties in the contract. All of these functional and behavioral descriptions of the workflow of businesses are analyzed by our system using the related contracts in the system. All the project management, team management, and customer relationship management capabilities are thus driven by the business logic derived from the contracts and agreements between all parties involved. Knowledge of the contracts also helps us in our additional plugin services for bookkeeping, customized ledgers, and product inventory management solutions. When your team members are working on any part of the contract, the system can now be aware of the current context e.g. patient searching a product category on the website or an employee looking up a return policy for a certain item. The former would receive intelligent assistance to help with the shopping - if determined to be needed. The latter could receive a complete takeover of the system in contextually looking up the specific business document needed.
 
 So, you can think of us as an e-commerce platform for trading service agreements and insurances (e.g. for event organization and logistics) instead of just physical products. 
 
-As a semantically and contextually aware business assistant. An operations research expert. An accounting assistant. A warehouse manager. As your trusty day-book and ledger maintenance staff at work.
+As a semantically and contextually aware business assistant. As an operations research expert. An accounting assistant. A warehouse manager. Your trusty day-book and ledger maintenance staff at work.
 
-And as a hospitality platform operational at every accessible venue instead of a particular location (e.g. hotel, stadium, government offices, hospital, website, app, etc.).
+And as a hospitality platform operational at every accessible venue instead of a particular location (e.g. hotel, stadium, government offices, hospital, website, app, etc).
 
 ___________________________________________________________
 
-And then there are also these little things that we said since the very first time that we are proud to be:
+And then there are also these little things that we said since the very first time that we are, and still are proud to be:
 
 ## Omni-channel
 
@@ -58,10 +58,18 @@ Our services can be sold as contracts, insurances, and barter agreements. When m
 ## Work Exchange
 
 Our work exchange platform goes beyond a freelancer network for posting and grabbing project offers. After a service request or offer is posted, there is either an open or closed negotiation between the provider and consumer parties. Optionally, an auction of the type chosen by the author of the post may be created to bypass negotiations and find optimum pricing options without involving [senile Walrasians](https://www.econlib.org/archives/2010/09/the_senile_walr.html).
+
+
 Work exchange also enables us to remain self-organizing and self-preserving. We have learned from similar communities on the web and throughout history and created a public reputation-based trust system. 
 
 Providing such services in itself is also a part of our work exchange program.  For every project, the project's team may have various developers, artists, sponsors, volunteers, reviewers, and even the audience itself due to our democratized innovation and feedback mechanisms. Membership in certain negative income tax service provider communities can help offset your monthly income in case it dips below a predefined baseline. Similar 'buffer financing' or insurance services also exist for the projects in the nep.work community. Finally, most communities and workgroups have a meta group that is responsible for critical reviews and future roadmaps of the group.
 
 ____________________________________________________
 
-But we are also so much more. And in many cases, words have not yet been invented for what we do. For instance, we have blockchains that handle more than a million transactions per second whereas the fastest ever yet - [Futurepia](https://futurepia.io/assets/img/FUTUREPIA_WhitePaper_EN.pdf) - is at 300K TPS. Unlike most of the blockchain community, we absolutely despise the decadence that cryptocurrencies have created instead of solving bigger problems. Alike most of the community, we believe that the core ethos of verifiable and accountable systems backed by immutable sources of truth will bring some sense and order to our otherwise chaotic world filled with COVID, quakes, fires, floods, and [a lot more](https://www.gvi.co.uk/blog/6-critical-global-issues-what-are-the-worlds-biggest-problems-and-how-i-can-help/).
+But we are also so much more.
+
+And in many cases, words have not yet been invented for what we do. For instance, we have a new generation of blockchains that handle more than a million transactions per second whereas the fastest ever yet - [Futurepia](https://futurepia.io/assets/img/FUTUREPIA_WhitePaper_EN.pdf) - is at ~300K TPS. 
+
+Unlike most of the blockchain community, we absolutely despise the decadence that cryptocurrencies have created instead of solving bigger problems. 
+
+Alike most of the community, we believe that the core ethos of verifiable and accountable systems backed by immutable sources of truth will bring some sense and order to our otherwise chaotic world filled with COVID, quakes, fires, floods, and [a lot more](https://www.gvi.co.uk/blog/6-critical-global-issues-what-are-the-worlds-biggest-problems-and-how-i-can-help/).
