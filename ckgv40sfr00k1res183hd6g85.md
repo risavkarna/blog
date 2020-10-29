@@ -2,9 +2,11 @@
 
 # Is Math Invented or Discovered?
 
-Whether mathematics is discovered or invented is an age-old question. It could also be an innocent false dilemma. Could it be both or something in between?
+Whether mathematics is discovered or invented is an age-old question but it could also have been an innocent false dilemma all along. Could it be something in between or beyond?
 
-An alternative approach to answering this could be that mathematics is a formal language. More precisely, mathematics is a system for deciding whether mathematical statements are true. And what could make a statement mathematical? Tautologically, any statement that follows mathematical rules could be called a mathematical statement. 
+An alternative approach to answering this could be that mathematics is a formal language that is constructed using formal structures and operations on those structures. More precisely, mathematics is a system for deciding whether mathematical statements about a mathematical structure are true. 
+
+So what could make a statement mathematical? Tautologically, any statement that follows mathematical rules could be called a mathematical statement. 
 
 Is that last sentence in itself an exhaustive rule? That is, are there other ways to write or construct a mathematical statement? Mathematics can sometimes be about something more than a system of rules or instructions. In fact, this simple rule-based 'kind' of mathematical statements is usually a small subset of mathematical statements that map directly to the kind of statements we write in imperative programming. As an example of this think of the following multiplication as a 'mathematical statement':
 
@@ -18,13 +20,13 @@ ______
 69104
 ```
 
-We teach this kind of lifeless and tedious instruction set to our kids to teach them multiplication when they are starting to learn mathematics. And of course, most of them grow up to hate some parts or all of mathematics. Well some of them do not. And that's how you have imperative programmers or drone-workers. However, these instruction sets in arithmetic come from the algebra of numbers, which is slightly more abstract than merely adding 1234 to itself 56 times as an arithmetician. Such algebras form mathematical structures as opposed to mere mathematical rules. 
+We teach this kind of lifeless and tedious instruction set to our kids to teach them multiplication when they are starting to learn mathematics. And of course, most of them grow up to hate some parts or all of mathematics. Well there are some that do not mind these punishments. And that's how you have imperative programmers or drone-workers. However, these instruction sets in arithmetic come from the algebra of numbers, which is slightly more abstract than merely adding 1234 to itself 56 times as an arithmetician. Such algebras form mathematical structures as opposed to mere mathematical rules. 
 
 ## One of the Rings
 
 ![ring.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1603974856730/Ae7HOzkKM.png)
 
-Integers form a useful structure called a ring. And a ring is a set that just so happens to have two operations,  `+` and `·` , defined on its elements. And the second one, which is `·` happens to be distributive. Furthermore, it has both right and left distributivity. With this information, we know that:
+Integers form a useful structure called a ring. And a ring is a set that just so happens to have two operations,  `+` and `·` , defined on its elements and the second one, which is `·`, happens to be distributive. Furthermore, it has both right and left distributivity. With this information, we know that:
 
 ```
 1234 · 56 
@@ -57,13 +59,13 @@ Then we substitute 1234 with `1 · 1000 + 2 · 100 + 3 · 10 + 4 · 1`. Can we t
 
 ## Digression into Programming
 
-We have mentioned, albeit not clarified, in previous posts in the MAP series, that propositions and types are isomorphic. So in a sneaky typed-programmer way, we can say that this substitution is allowed as long as `+` is a pure operation and, therefore, referentially transparent. Purity simply means that for the same two operands, the operator always returns the same value and nothing else - not even any hidden consequence or side-effect. Referential transparency for an expression like 30 + 4 means that the expression is replaceable with the value of the expression e.g. 34. How are we sure that merely 'purity' preserves this 'replaceability'? 
+We have mentioned, albeit not clarified, in previous posts in the MAP series, that propositions and types are isomorphic. So in a sneaky typed-programmer way, we can say that this substitution is allowed as long as `+` is a pure operation and, therefore, referentially transparent. Purity simply means that for the same two operands, the operator always returns the same value and nothing else - not even any hidden consequence or side-effect. Referential transparency for an expression like `30 + 4` means that the expression is replaceable with the value of the expression e.g. `34`. How are we sure that merely 'purity' preserves this 'replaceability'? 
 
-Well, it is because we are guaranteed that along with the purity, we also have the rule that polynomial rings are closed under both operations i.e. `+` and `·` are always going to produce an integer result in the case of the integer ring, or a real result in case of the more general polynomial ring. So we know that the types of both operands and the results are the same. This is already good enough support in our claim for allowing substitution. The more important question however is how are the semantics of `+` or `·`operation defined?
+Well, it is because we are guaranteed that along with the purity, we also have the rule that rings are closed under both operations i.e. `+` and `·` are always going to produce an integer result, in the case of the integer ring, or a real result, in case of the more general polynomial ring. So we know that the types of both operands and the results are the same. This is already good enough but insufficient support in our claim for allowing substitution. The more important question however is how are the semantics of `+` or `·`operation defined?
 
 ## Let's Play the Peano
 
-For this, we have to build numbers themselves. If we are building up numbers from scratch it is easy to construct them from the Peano axioms (rule-based and inductive) or from Church numerals (function-based and recursive). Once you have integers and define how various operations are defined on integers, it is quite easy but not trivial to construct the reals. 
+For this, we have to build numbers themselves. If we are building up numbers from scratch it is easy to construct them from the Peano axioms (rule-based) or from Church numerals (function-based). Once you have integers and define how various operations are defined on integers, it is quite easy but not trivial to construct the reals. 
 
 A Peano number is either a `0` or a successor of another Peano number. In Haskell, we define Peano number values like this:
 
@@ -71,7 +73,7 @@ A Peano number is either a `0` or a successor of another Peano number. In Haskel
 data Peano = Zero | Succ Peano
 ````
 
-Obviously, `Zero` could correspond to the natural number `0`. Do we have 1 in this system yet? It could not be the first rule, which only produces `Zero` and it can only be one of these two rules but not both. This is because the pipe `|` represents a disjoint union or an 'either-or' mode of selection in this case. As for the second rule, `Zero` is the only Peano number we know so far. So the second constructor `Succ` has only `Zero` as a candidate thus far. Note that `Zero` has type `Peano`, and `Succ` has type `Peano -> Peano`.  i.e. it takes a Peano number and returns a Peano number. We can alternatively say that `Succ` is closed under Peano numbers. In that sense, Peano numbers are instead of 0, 1, 2, 3, 4... simply `Zero`, `Succ Zero`, `Succ (Succ Zero)`, `Succ (Succ (Succ Zero))` and so on and so on. 
+Obviously, `Zero` could correspond to the natural number `0`. Do we have 1 in this system yet? It could not be the first rule, which only produces `Zero` and it can only be one of these two rules but not both. This is because the pipe `|` represents a disjoint union or an 'either-or' mode of selection in this case. As for the second rule, `Zero` is the only Peano number we know so far. So the second constructor `Succ` has only `Zero` as a candidate thus far. Note that `Zero` has type `Peano`, and `Succ` has type `Peano -> Peano`  i.e. it takes a Peano number and returns a Peano number. We can alternatively say that `Succ` is closed under Peano numbers. In that sense, Peano numbers are instead of 0, 1, 2, 3, 4... simply `Zero`, `Succ Zero`, `Succ (Succ Zero)`, `Succ (Succ (Succ Zero))` and so on and so on. 
 
 Note that we have not defined any rule that allows for any Peano number `x` such that `Succ x` evaluates to `Zero`. This is because we do not have negative numbers (yet) and thus `Zero` is not the successor of any Peano number. We can still define ring-like operations on these numbers but without the inverse operations, we only have a semi-ring or just 'rig' - a ring without the 'negative' operations. 
 
