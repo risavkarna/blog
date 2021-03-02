@@ -28,5 +28,4 @@ These two conceptions of time are also highly problematic. The classical determi
 
 ## The Higher Dimensions of Time and The n-Onions
 
-
 ![Screenshot_20210303_013908.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1614715097417/z98emPlb9.jpeg)
