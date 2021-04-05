@@ -2,7 +2,7 @@
 
 ## Let's Find Ourselves Our Stack Inventory
 
-We are starting a common work group, work space and work shop for a multi-disciplinary software/socioware team. For Project Ouroboros, we will be mostly focused on contrasting and comparing the simple and dependent type theory. 
+We are starting a common work group, work space and work shop for a multi-disciplinary software/socioware team. For Project Ouroboros, we will be mostly focused on contrasting and comparing the simple and dependent type theories. 
 
 ## Backend
 
