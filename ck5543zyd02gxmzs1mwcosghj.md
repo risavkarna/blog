@@ -42,6 +42,7 @@ Martin Fowler explains in his article on [FlaccidScrum](https://martinfowler.com
 > "In defense of Scrum, it's important to point out that just because it doesn't include technical activities within its scope should not lead anyone to conclude that it doesn't think they are important. Whenever I've listened to prominent Scrummers they've always emphasized that you must have good technical practices to succeed with a Scrum project. They don't mandate what those technical practices should be, but you do need them... 
 
 > I always like to point out that it isn't methodologies that succeed or fail, it's teams that succeed or fail... Many people are looking to Lean as the Next Big Agile Thing. But the more popular lean becomes the more it will run into the same kind of issues as Scrum is facing now. That doesn't make Lean (or Scrum) worthless, 
+
 >> it just reminds us **Individuals and Interactions are more valuable than Processes and Tools.**"
 
 
@@ -58,9 +59,11 @@ The [Agile Manifesto](https://agilemanifesto.org/) reads:
 
 > That is, while there is value in the items on the right, we value the items on the left more.
 
-XP values feedback, simplicity, communication, courage and respect. Agile's original best practices include standups, stories, retrospectives, iterations, estimates, tests, refactors and continuous deployments. 
+XP values feedback, simplicity, communication, courage and respect. Agile's original best practices include stand-ups, stories, retrospectives, iterations, estimates, tests, refactoring and continuous deployments. 
 
-Most teams fail because of lack of XP values and/or the managerial world view that prioritizes shipping faster - under the guise of pragmatism- over shipping with agile discipline - under the disparaging label of ideology. Some failures are softer and, in my experience, are caused by managers who make their developers so disconnected from business problems over time that they are no different from machine or telephone operators from the days of past. Then there are those managers who promote the idea that QA tools and tests are not part of getting the job done but rather a luxury. 
+Most teams fail because of lack of XP values and/or the managerial world view that prioritizes shipping faster - under the guise of pragmatism - over shipping with agile discipline - under the disparaging label of ideology. 
+
+Some failures are softer and, in my experience, are caused by managers who make their developers so disconnected from business problems over time that they are no different from machine or telephone operators from the days of past. Then there are those managers who promote the idea that QA tools and tests are not part of getting the job done but rather a luxury. 
 
 However the biggest and most cliched failure source is viewing programmers as a species that
  - does not know how to talk
@@ -73,14 +76,18 @@ Hence businesses create the need to bring forth a magical middleman with their o
 
 Post-agile movement is primarily about removal of these aforementioned categories of managers. We do not need business managers leading software teams certified after a few weeks of training about software development management principles. We instead need an inversion whereby software developers learn management principles suited for their domain. And yes, this applies for even the junior most developers in the team since domain specific management principles are useful to know for everybody in the domain.
 
-Another profound realization that led to Fred George's vision of the post-agile programmer anarchy is the fact that partnerships between the customer and the development team to drive the software development project is inherently flawed and cripplingly slow. Partnership with the customer should be about defining their problems and desirable features of the solutions, nothing more. Otherwise we would be in the business of building the fabled horse carriages of customer's dreams when we could be building them cars or even star ships that the customers do not yet know about. 
+Another profound realization that led to Fred George's vision of the post-agile programmer anarchy is the fact that partnerships between the customer and the development team to drive the software development project is inherently flawed and cripplingly slow. 
 
-This radical departure from the classical and agile status quo is possible because development teams understand business metrics, customer oriented development and follow the supremely powerful continuous feedback-continuous deployment cycle. 
+Partnership with the customer should be about defining their problems and desirable features of the solutions. Nothing more. Otherwise we would be in the business of building the fabled horse carriages of customer's dreams when we could be building them cars or even star ships that the customers do not yet know about. 
+
+This radical departure from the classical and agile status quo is possible because development teams understand business metrics, customer oriented development and follow the powerful continuous feedback-continuous deployment cycle. 
 
 On a more fundamental level, it is the realization that 
+
 > **if you are going for a drive, you need to put the driver in the driver's seat**. 
 
 Secondly if the driver is an experienced professional whom you have told where to take you, 
+
 > **the backseat drivers are not needed**.
 
 Over the decades we have identified that we need Test, Feature, Behavior, Acceptance Test, Data, Domain, Design, Model or, if you will, * Driven Development. Perhaps one or more of these apply to your team's needs but none of it will go into practice if the developers themselves cannot drive the development practices. As both of the Martins above would say, the teams fail not the tools and this responsibility of applying the correct technical tools is a technical team's responsibility not a business domain concern.
@@ -97,16 +104,24 @@ Businesses will always need to be lead by business managers. Software developmen
 
 This is obviously only going to work if your development team has enough senior developers with industry experience and if there is enough communication among all its members. Working as a professional is very different from actually becoming a professional. But once you are lucky to have a team of professionals and younglings eager enough to become professionals, every developer can rightfully be **an architect** for their own region of the system they are building. You do not always have to go for a micro-service architecture for this to be possible. Simply let the most experienced developers create a functional core and everyone else develop their own parts of the imperative shell around it as efficient and well-integrated plugins. More trusted developers would get the responsibility of pairing up with the developers of the more important plugins.
 
-### Self-Organizing Superorganisms
+### Self-Organizing Super Organisms
 
 This so-called 'post-agile' technique is still very much compliant with the original agile manifesto. However there are no managers of programmers whose wrongly placed formality and misplaced rules may constrain technical innovation and creativity. As these developers will like to fail as much as possible in the early iterations, the classical managers will have no reliable metrics of progress anyways. The ideal anarchic development team has team members jumping up to take responsibilities that no outsider manager could even have possibly foreseen. Such a team could democratically divide work based on the particular sub-specializations, interests and expertise of the team member instead of forcing everyone to see through a story or task's completion from top to bottom of the tech-stack owing to the assigned 'user stories'. These developers would work directly with the product owner or the customer and build more trust than what waterfall or impure agile derivatives can provide. 
 
-It follows that one big change in the development team's architecture would be the fact that development can no longer be story driven. As mentioned earlier, customers should produce formal, comprehensive problem descriptions and perhaps the desired features of the solutions but never directly participate in solution designs and technical specs. Anarchic teams cannot allow for customer side stories that disconnect developers from the actual problems the customers face. **Neither customers nor managers know enough to tell the developers what or how the solution should be. If they did, the programming part would already have been automated or made into a business manager friendly automation DSL or UI.** Developers who understand the problem clearly can empathize better with the end users and come up with better specs and deadlines for the solutions. They might also be able to squeeze in enough room for early failures and experimentation. Overall, such teams will behave as self-organizing superorganisms.
+It follows that one big change in the development team's architecture would be the fact that development can no longer be story driven. As mentioned earlier, customers should produce formal, comprehensive problem descriptions and perhaps the desired features of the solutions but never directly participate in solution designs and technical specs. Anarchic teams cannot allow for customer side stories that disconnect developers from the actual problems the customers face.
+
+ **Neither customers nor managers know enough to tell the developers what or how the solution should be. If they did, the programming part would already have been automated or made into a business manager friendly automation DSL or UI.**
+
+Developers who understand the problem clearly can empathize better with the end users and come up with better specs and deadlines for the solutions. They might also be able to squeeze in enough room for early failures and experimentation. Overall, such teams will behave as self-organizing super organisms.
 
 ### From Anarchy to Anarchitecture
 
 Lastly, neither Fred George nor the two Martins are advocating radical anarchy or complete departure from the lessons learned from scrum and other agile frameworks, be it managerial or technical. Even the anarchists are supposed to converse and ask each other. Anarchic teams have emergent leaderships and self-organization strategies rather than pre-ordained leadership or lack of well-suited organizational strategies. 
 
-How would the architecture of a system produced by an anarchic team look like? Surely the anarchy would leak into the architecture itself. Perhaps there will be an explosion of plugin and microservice architectures. Perhaps not. But I am sure that software architecture itself will be radically affected. What kind of architecture allows for flexible micro-architectures? The best kind. Probably. Could we still call it an architecture? Once again, the solution emerges from the problem definition itself.
+How would the architecture of a system produced by an anarchic team look like? Surely the anarchy would leak into the architecture itself. Perhaps there will be an explosion of plugin and microservice architectures. Perhaps not. But I am sure that software architecture itself will be radically affected.
+
+What kind of architecture allows for flexible micro-architectures? The best kind. Probably. Could we still call it an architecture?
+
+Once again, the solution emerges from the problem definition itself.
 
 We could call it ***anarchitecture***.
