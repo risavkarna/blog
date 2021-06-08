@@ -1,6 +1,6 @@
 ## Anarchitecture
 
-## Development in Post-Agile, Manager-less Teams
+## Development in Post-Agile, Managerless Teams
 
 Software teams often need a personnel as a bridge to the world of businesses and customers. However do they really need these bridging professionals who have likely never developed any non-trivial software to also *manage* enterprise software teams? Can a team, especially a software team, self-organize?
 
